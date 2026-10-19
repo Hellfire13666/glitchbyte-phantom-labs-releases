@@ -17,7 +17,9 @@
 
 Our [Build → Run → Publish → Vault standard](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BUILD_PUBLICATION_STANDARD.md) governs **future** tools and upgrades. Each tool gets tested [Simple/Medium/Extra beginner run recipes](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BEGINNER_RUNTIME_RECIPES.md), real progress/intel output where applicable, truthful no-save/Firefox behavior, unique artwork/source, and navigation via the [Tool Vault](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/TOOL_VAULT.md). This archive indexes **only backups that actually exist and pass verification**. Documentation changes alone do not produce a new archive or guarantee new tool coverage.
 
-**🔧 Recently verified external integration:** [Findomain live discovery + three beginner runtime recipes](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/FINDOMAIN_LIVE_CHECK.md). This is a current how-to page in Headquarters, **not a new vaulted binary or archive**. Historic snapshots below remain unchanged.
+**🔧 Recently verified external integration:** [Findomain live discovery + three beginner runtime recipes](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/integrations/FINDOMAIN_LIVE_CHECK.md). This is a current how-to page in Headquarters, **not a new vaulted binary or archive**. Historic snapshots below remain unchanged.
+
+**🌹 New HQ source release:** [SUBDOMINATRIX terminal-only live signal](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/SUBDOMINATRIX.md) passed Python CI in main. **The dated backup ZIPs below predate this source upgrade**; this page does not claim the new code is already archived. A fresh backup must be generated and its checksum verified before updating the recovery index.
 
 ## 🚪 Phantom Backup HQ doors
 

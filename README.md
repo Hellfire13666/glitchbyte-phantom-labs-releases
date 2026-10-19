@@ -29,6 +29,8 @@ Our [Build → Run → Publish → Vault standard](https://github.com/Hellfire13
 
 [**Universal `-o name.txt` / `--o name.txt` instructions**](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/EASY_SAVE_ALL_TOOLS.md) explain how to save real printed terminal feedback from existing CLI tools, with a separate native hostname TXT option in SUBDOMINATRIX. All 24 HQ tool guides contain a save example and a note about their actual behavior. **This does not add new binaries or update the dated verified archives below**; refresh and verify new snapshots separately.
 
+**🌹 New HQ-only Triad Signal companion:** [source](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/scripts/triad_signal_2026.py) · [verification and run recipes](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/integrations/TRIAD_SIGNAL_2026.md). CI passed, but this source is not yet in a versioned verified Backup HQ ZIP. The historical Triad Forge local ZIP and backup archives were not changed. First user-side tests showed Waybackurls worked and Amass/GAU timed out.
+
 ## 🚪 Phantom Backup HQ doors
 
 | Destination | Open |

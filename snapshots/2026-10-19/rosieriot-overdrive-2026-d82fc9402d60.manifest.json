@@ -1,0 +1,83 @@
+{
+  "archive_path": "snapshots/2026-10-19/rosieriot-overdrive-2026-d82fc9402d60.zip",
+  "archive_sha256": "7e7e26cb027beebf2987a29348b12b3a021295f82f1a901abd97ed4aa179bc41",
+  "file_count": 14,
+  "format": "full tracked-file snapshot",
+  "generated_utc": "2026-10-19T21:44:21.058699+00:00",
+  "manifest_path": "snapshots/2026-10-19/rosieriot-overdrive-2026-d82fc9402d60.manifest.json",
+  "repository": "Hellfire13666/rosieriot-overdrive-2026",
+  "source_commit": "d82fc9402d60803b1245ddc516d083ff2049bd98",
+  "source_files": [
+    {
+      "path": "README.md",
+      "sha256": "4cbf13fd74e799df5eb6d2e6aaab3bb14195158c47f457c6848d0d70bbbd3b1e",
+      "size": 11821
+    },
+    {
+      "path": "labs.png",
+      "sha256": "0ff2c03a7f0f0d2afb0a39e4d37395de4b675918d0059ddc885570873115f775",
+      "size": 2805292
+    },
+    {
+      "path": "labs3.png",
+      "sha256": "6fd6b7677340b78ef04b62ac3a51f59c3e05c2de5502d06013d0db85d2ff72e6",
+      "size": 2309430
+    },
+    {
+      "path": "rosieriot_overdrive_github_and_vault_bundle/README.md",
+      "sha256": "ff905585a5d95c74ab4fb5499656c3ca19dbbefd9cd28b36c0a71d87d6b5cccd",
+      "size": 3001
+    },
+    {
+      "path": "rosieriot_overdrive_github_and_vault_bundle/VAULT_MANIFEST.json",
+      "sha256": "dba08e569fa549e716ca00b05dbc59fc0e6adc7790086c0ad7d951763bb9a2c6",
+      "size": 1302
+    },
+    {
+      "path": "rosieriot_overdrive_github_and_vault_bundle/assets/rosieriot-overdrive-banner.png",
+      "sha256": "6fd6b7677340b78ef04b62ac3a51f59c3e05c2de5502d06013d0db85d2ff72e6",
+      "size": 2309430
+    },
+    {
+      "path": "rosieriot_overdrive_github_and_vault_bundle/assets/rosieriot-overdrive-icon.png",
+      "sha256": "1d0b093bf4dd7a8df4de32f4b829dcf71234213a28498f4e19c6ef35268f9000",
+      "size": 2175615
+    },
+    {
+      "path": "rosieriot_overdrive_github_and_vault_bundle/examples/demo_output.txt",
+      "sha256": "af20de06829e85b9195e25fd92a0d0e36150537345a112385cee11cecd79e38b",
+      "size": 715
+    },
+    {
+      "path": "rosieriot_overdrive_github_and_vault_bundle/install_missing_stack.sh",
+      "sha256": "ec2576c6d3cd122767fd83f922719d1d2e91ff717aa0dea1f84d1e43a5a13604",
+      "size": 741
+    },
+    {
+      "path": "rosieriot_overdrive_github_and_vault_bundle/installers/OPTIONAL_TOOLS.md",
+      "sha256": "999bf1e96651ed1022d245855f5b80768ddf7f04e19650985b52bbdae5cb93a4",
+      "size": 1437
+    },
+    {
+      "path": "rosieriot_overdrive_github_and_vault_bundle/patches/PATCH_NOTES.md",
+      "sha256": "0442199fcaae24965f85a48cd0f8df34434d3328574c804fec96b089ce428cbc",
+      "size": 871
+    },
+    {
+      "path": "rosieriot_overdrive_github_and_vault_bundle/rosieriot_overdrive.py",
+      "sha256": "991748af6b653287bdf80796e5ea1c02b64faeb38da41e3d7bb7dc6e41747707",
+      "size": 7024
+    },
+    {
+      "path": "rosieriot_overdrive_github_and_vault_bundle/rosieriot_overdrive_2026.zip",
+      "sha256": "9ecaa52fcc310aa019d71729e45b15944a203a67325ec0f676d5616c64444e14",
+      "size": 7624
+    },
+    {
+      "path": "rosieriot_overdrive_github_and_vault_bundle/verify_stack.sh",
+      "sha256": "45a8197146193de5d032927adf008b78b5f23323f556a1481be6801482a49bc8",
+      "size": 471
+    }
+  ],
+  "source_url": "https://github.com/Hellfire13666/rosieriot-overdrive-2026/tree/d82fc9402d60803b1245ddc516d083ff2049bd98"
+}

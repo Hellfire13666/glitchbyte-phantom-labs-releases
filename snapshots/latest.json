@@ -1,26 +1,26 @@
 {
   "backups": [
     {
-      "archive_path": "snapshots/2026-10-19/glitchbyte-phantom-labs-d6e4dc1fa836.zip",
-      "archive_sha256": "b8ba854ebed3df88ee6d2b115b9abdcfe9ec43e9d6104db556bea5c36e6cbe05",
-      "file_count": 137,
-      "manifest_path": "snapshots/2026-10-19/glitchbyte-phantom-labs-d6e4dc1fa836.manifest.json",
+      "archive_path": "snapshots/2026-10-19/glitchbyte-phantom-labs-4be41644437e.zip",
+      "archive_sha256": "95436e67765756240e8705fb6f606c0691603c60304ce6c6385fab1901f0f245",
+      "file_count": 147,
+      "manifest_path": "snapshots/2026-10-19/glitchbyte-phantom-labs-4be41644437e.manifest.json",
       "repository": "Hellfire13666/glitchbyte-phantom-labs",
-      "source_commit": "d6e4dc1fa836e021797eed85d8d7d4783d8db758",
-      "source_url": "https://github.com/Hellfire13666/glitchbyte-phantom-labs/tree/d6e4dc1fa836e021797eed85d8d7d4783d8db758"
+      "source_commit": "4be41644437e5c40edec6a454a705bf5d57f9215",
+      "source_url": "https://github.com/Hellfire13666/glitchbyte-phantom-labs/tree/4be41644437e5c40edec6a454a705bf5d57f9215"
     },
     {
-      "archive_path": "snapshots/2026-10-19/rosieriot-overdrive-2026-e26afde620b5.zip",
-      "archive_sha256": "9cf778e817a5d7283e60e424429abc307e8accbfa155bc3ff23710d5f8ff7505",
+      "archive_path": "snapshots/2026-10-19/rosieriot-overdrive-2026-d82fc9402d60.zip",
+      "archive_sha256": "7e7e26cb027beebf2987a29348b12b3a021295f82f1a901abd97ed4aa179bc41",
       "file_count": 14,
-      "manifest_path": "snapshots/2026-10-19/rosieriot-overdrive-2026-e26afde620b5.manifest.json",
+      "manifest_path": "snapshots/2026-10-19/rosieriot-overdrive-2026-d82fc9402d60.manifest.json",
       "repository": "Hellfire13666/rosieriot-overdrive-2026",
-      "source_commit": "e26afde620b5a4d067bd81727f78ef23ee0af223",
-      "source_url": "https://github.com/Hellfire13666/rosieriot-overdrive-2026/tree/e26afde620b5a4d067bd81727f78ef23ee0af223"
+      "source_commit": "d82fc9402d60803b1245ddc516d083ff2049bd98",
+      "source_url": "https://github.com/Hellfire13666/rosieriot-overdrive-2026/tree/d82fc9402d60803b1245ddc516d083ff2049bd98"
     }
   ],
   "checksum_file": "snapshots/SHA256SUMS.txt",
-  "created_utc": "2026-10-19T05:04:37.486886+00:00",
+  "created_utc": "2026-10-19T21:44:21.510134+00:00",
   "notice": "Only committed, public GitHub files are covered; keep a second copy offline.",
   "schema_version": 1
 }

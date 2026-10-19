@@ -2,7 +2,7 @@
 <div align="right"><a href="https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/upload/main"><img alt="UPLOAD FILES" src="https://img.shields.io/badge/UPLOAD-FILES-7850E8?style=flat-square&logo=github&logoColor=white"></a></div>
 <!-- GLITCHBYTE-UPLOAD-DOOR:END -->
 
-# 🔐 Phantom Vault | Verified Recovery Guide
+# 🔐 Phantom Backup HQ | Verified Recovery Guide
 
 > **Backup status is only confirmed when `snapshots/latest.json`, the referenced ZIP files, and SHA-256 hashes exist and pass validation.** A workflow definition alone is not an archive.
 

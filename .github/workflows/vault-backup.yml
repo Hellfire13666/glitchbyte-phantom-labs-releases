@@ -27,6 +27,7 @@ jobs:
         with:
           persist-credentials: true
           fetch-depth: 1
+          ref: main
 
       - name: Prepare snapshots and verify archive integrity
         run: python3 .github/scripts/build_vault_snapshots.py
@@ -45,5 +46,6 @@ jobs:
             echo "All current source commits already backed up and verified."
           else
             git commit -m "vault: publish verified versioned backups [skip ci]"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi

@@ -1,0 +1,49 @@
+name: Phantom Vault Versioned Backups
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/vault-backup.yml"
+  schedule:
+    - cron: "23 5 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: phantom-vault-versioned-snapshots
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    name: Build, checksum, and publish source archives
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout Phantom Vault
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+
+      - name: Prepare snapshots and verify archive integrity
+        run: python3 .github/scripts/build_vault_snapshots.py
+
+      - name: Confirm generated checksums
+        run: |
+          cd snapshots
+          sha256sum --check SHA256SUMS.txt
+
+      - name: Publish versioned backups
+        run: |
+          git config user.name "glitchbyte-vault-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add snapshots
+          if git diff --cached --quiet; then
+            echo "All current source commits already backed up and verified."
+          else
+            git commit -m "vault: publish verified versioned backups [skip ci]"
+            git push origin HEAD:main
+          fi

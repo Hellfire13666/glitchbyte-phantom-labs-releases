@@ -1,0 +1,698 @@
+{
+  "archive_path": "snapshots/2026-10-19/glitchbyte-phantom-labs-46a95c705f2b.zip",
+  "archive_sha256": "4b439ba4e428064aec7fa29372c4aaa3ef05722bdce62a0b61507584e730fc09",
+  "file_count": 137,
+  "format": "full tracked-file snapshot",
+  "generated_utc": "2026-10-19T05:02:44.373097+00:00",
+  "manifest_path": "snapshots/2026-10-19/glitchbyte-phantom-labs-46a95c705f2b.manifest.json",
+  "repository": "Hellfire13666/glitchbyte-phantom-labs",
+  "source_commit": "46a95c705f2b24631740a30e235004340274bf33",
+  "source_files": [
+    {
+      "path": ".github/workflows/public-clone-verification.yml",
+      "sha256": "6028dd36a795b1520f5368ea0db0638b678e55cac4b6511d61072c0fc1326d95",
+      "size": 3175
+    },
+    {
+      "path": ".github/workflows/python-checks.yml",
+      "sha256": "ea9a935b984551e265b829c025627b91d3676c4ecb45ff3d7d10582bb0c5839f",
+      "size": 398
+    },
+    {
+      "path": ".github/workflows/screamframe-offline-checks.yml",
+      "sha256": "2d4141f385c808bce46138081aca4f35e39d531173772360bbe26fab8041882a",
+      "size": 1744
+    },
+    {
+      "path": ".github/workflows/tool-cover-linker.yml",
+      "sha256": "98a2ba50ed3f2b9324f3cc8012205e45d502aa91427f9a61975bc1a63d243a3b",
+      "size": 1206
+    },
+    {
+      "path": ".github/workflows/voidlantern-go-checks.yml",
+      "sha256": "31983bdadfc43aa134dbe1f53a4c8d302b9c50ff9f853610cc62d1376061f26d",
+      "size": 622
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "2e03d5854044682f33b561f0e70ae9c055d64916658ac1837aad8ce38c3c13cd",
+      "size": 133
+    },
+    {
+      "path": "LICENSE-NOTICE.md",
+      "sha256": "c3dccfc229112b8d96db97af41514f5f2d8e213d44d4371b9620b56733e2fb2c",
+      "size": 2239
+    },
+    {
+      "path": "README.md",
+      "sha256": "c421d3b14ad1c92f06918eea5c6934adc1c6e1211c30ef36d9110163658ad153",
+      "size": 20355
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "5cc35697a4fbd63ff3dcc1fbd33c529069c1ef5a7a90a301da70ef0ef9b03d2b",
+      "size": 2415
+    },
+    {
+      "path": "artwork/Screenshot_2026-10-17_23-22-21.png",
+      "sha256": "4b60b78084b0e10bcf0dbfe79d363e9b7254fbf01d30106d66d2e67a3e864907",
+      "size": 262397
+    },
+    {
+      "path": "artwork/labface2.png",
+      "sha256": "baf74957b8f6dbd5df8aa074414568aa33cf8fb8c202d6ae1fbf9acd79cdec31",
+      "size": 2430892
+    },
+    {
+      "path": "artwork/labs4.png",
+      "sha256": "0333d6cd7e21b26c2817b5807c720fa40eb89cca579a786a1363859f70970f9f",
+      "size": 2070923
+    },
+    {
+      "path": "artwork/rosie_ip_shadow_art.png",
+      "sha256": "ce159bbf498189211bb2123341f65c46ecfca7f14ba3b67592226c3ce59e82d8",
+      "size": 2469914
+    },
+    {
+      "path": "artwork/subdom.png",
+      "sha256": "a0db6c7d52b93d16a1f1829df9fb3e3ece56703ce0c2f4300357a1a750f93c2d",
+      "size": 2426391
+    },
+    {
+      "path": "artwork/tool-covers/03_domain_intel.png",
+      "sha256": "aba045a8a8f33917d2b3d3398fc8be6b6a70e163a98652691d89781a930a8b48",
+      "size": 2856233
+    },
+    {
+      "path": "artwork/tool-covers/04_domain_phantom.png",
+      "sha256": "553092682e59d6fde20a2dc27048572910fa89706774fd06af08a82121ad1050",
+      "size": 2901694
+    },
+    {
+      "path": "artwork/tool-covers/05_neon_rose_phantom_3.png",
+      "sha256": "b6fdd03e2bcc1e8eb627936486169f9472db31c6b893fa09aca0c06f1172bc46",
+      "size": 2343322
+    },
+    {
+      "path": "artwork/tool-covers/06_ip_specter.png",
+      "sha256": "d9d03fd1a623af76edbd686cf988193428bf1a0a0638297569c50563cae19a29",
+      "size": 255418
+    },
+    {
+      "path": "artwork/tool-covers/08_voidlantern.png",
+      "sha256": "9ecbc4250927dfc0eaf6515ebf21ba39cbe98aca0d028da68227a863b439d416",
+      "size": 2247958
+    },
+    {
+      "path": "artwork/tool-covers/09_username_intel.png",
+      "sha256": "9d99e7d184a4ed6d8c2fd89e0a965b8b1005684507f557abab6d6fab8bad99cb",
+      "size": 973591
+    },
+    {
+      "path": "artwork/tool-covers/10_velvetecho.png",
+      "sha256": "3771027584ee6f1ab305a394858d28c9a7a332693027f94cd05ebd62aa1ad6b4",
+      "size": 247305
+    },
+    {
+      "path": "artwork/tool-covers/11_rose_crawler.png",
+      "sha256": "af61cd418beeaf2c11c7804ddcb0a5d8a06c76fd02ee545aa6210b9b139ef06a",
+      "size": 2961983
+    },
+    {
+      "path": "artwork/tool-covers/12_x_intel_phantom.png",
+      "sha256": "9ec3c393353f90c5183ed154ee1a4cd5e5f7f44b6c283310c1c8d7868ebba365",
+      "size": 2377116
+    },
+    {
+      "path": "artwork/tool-covers/13_x_shadow_no_api.png",
+      "sha256": "88dd7aff0dee169d36d48633bb3128f36c948e95cd3d954289d0e2022429cbd8",
+      "size": 2561966
+    },
+    {
+      "path": "artwork/tool-covers/14_hackgirl_intel.png",
+      "sha256": "91725c906a453d014b4fe54e28aff1eee7449b7d5e3ca54cb031b416d15e1198",
+      "size": 2167167
+    },
+    {
+      "path": "artwork/tool-covers/15_screamframe.png",
+      "sha256": "389958944e73e9caebaac16c59c75e22bd8357a9a7dc6e2d86b6970aa2754e97",
+      "size": 262618
+    },
+    {
+      "path": "artwork/tool-covers/16_ghostmark.png",
+      "sha256": "a0601f28fe5e77fa63593193b8ccbab2ebb4baf0fd0cddefaf03f494d714cb63",
+      "size": 234525
+    },
+    {
+      "path": "artwork/tool-covers/17_log_constellation.png",
+      "sha256": "6fd895beee3a3cdb13afea31d60dd88baac0c295db560bc598f2f500c2effa5b",
+      "size": 3028042
+    },
+    {
+      "path": "artwork/tool-covers/18_signal_garden.png",
+      "sha256": "e9adf402f4a122c2398ce0702bf03d65658ff87703bf222e0b3ffef3fe03550c",
+      "size": 3010626
+    },
+    {
+      "path": "artwork/tool-covers/19_hexwake.png",
+      "sha256": "69d937ff83e50fcd57d7ca797abf4cad650b6862cb1f96b4cdc5c30955dae69c",
+      "size": 2275235
+    },
+    {
+      "path": "artwork/tool-covers/20_phantom_cipherbox.png",
+      "sha256": "db24872de14fc750cd0213500ef15411101a5380445494d84ab7860e61e57261",
+      "size": 3090605
+    },
+    {
+      "path": "artwork/tool-covers/21_catch_me_in_the_chaos.png",
+      "sha256": "eeb795cc252f4f9ce97ef80be28f6f14470d5aa48932d1c0d7a4f820a5837a88",
+      "size": 1596018
+    },
+    {
+      "path": "artwork/tool-covers/22_dark_desire.png",
+      "sha256": "dfc62ec65be475ea177744a7820484df16748a9c489db48e7d396b6bab801b25",
+      "size": 1600371
+    },
+    {
+      "path": "artwork/tool-covers/23_ghost_in_my_heart.png",
+      "sha256": "92c278596d23105510ddb03e7e03d64dd4167f3b0005ca51d61d3e52f95a1434",
+      "size": 2613940
+    },
+    {
+      "path": "artwork/tool-covers/24_find_me_if_you_love_me.png",
+      "sha256": "2c6964cb5fa26fb241359632c8c9062b8b7f895e2a9b2cd186e7da8315ba21d0",
+      "size": 2403338
+    },
+    {
+      "path": "artwork/tool-covers/README.md",
+      "sha256": "984e55f6999f8c0aaeece60bc73b3859444cbc79f80413dd2be6c5106ba9bda5",
+      "size": 1872
+    },
+    {
+      "path": "artwork/tool-covers/last_two_phantom_covers_upload/SHA256_MANIFEST.json",
+      "sha256": "e95941be943563740c14b770c03fe94fe0fbe1916fb021dd0d92faf6727fbf99",
+      "size": 589
+    },
+    {
+      "path": "artwork/tool-covers/last_two_phantom_covers_upload/UPLOAD_INSTRUCTIONS.txt",
+      "sha256": "062a029524d0e761f7e18d57e3a282443bd1b017cf7c43ddb8c5abb3a0076e1e",
+      "size": 639
+    },
+    {
+      "path": "artwork/vaultlab.png",
+      "sha256": "0787c24dcaac6b71babb6ec4c62a871bd818a11dd25e473a160d4462c3439e59",
+      "size": 2475775
+    },
+    {
+      "path": "docs/ARTWORK_UPLOAD_CLEANUP.md",
+      "sha256": "472cbe3828d9a27745b50b04ba6d881c0eaf8a79b6131e3d19c3a86c7b852d02",
+      "size": 5710
+    },
+    {
+      "path": "docs/CLEAN_BUILD_VERIFICATION.md",
+      "sha256": "bf13be64644d07eba03346c1d7d7838717d741d9cbfdfd4f5aced0f1b791baea",
+      "size": 4162
+    },
+    {
+      "path": "docs/COPY_PASTE_OPEN.md",
+      "sha256": "3edbdfd9221e3bf5cbafc74c240d1de3ea8cdbd764f1edae4d41e2ea7eb6aa99",
+      "size": 9915
+    },
+    {
+      "path": "docs/CULTIVATION_ROOM.md",
+      "sha256": "f1416e2cb200173d34ec4fe0153a1f5687f6eee95152a52ed9b48e5a68ddc122",
+      "size": 2804
+    },
+    {
+      "path": "docs/ECOSYSTEM.md",
+      "sha256": "3d42234db3f53cc9a5f5da242e37e5e5c1b502b486c15b6a2161e799891bf206",
+      "size": 8047
+    },
+    {
+      "path": "docs/INVENTORY.md",
+      "sha256": "a53914794ba52524a99727050469c428ffed5e5bdc563d583869566ee1901b04",
+      "size": 1874
+    },
+    {
+      "path": "docs/OFFLINE_VERIFICATION.md",
+      "sha256": "8c4b3d5220b1955bc4c8f8a34cdf39f94a8a5ccd98604bd991b5bac3f4114a2e",
+      "size": 4077
+    },
+    {
+      "path": "docs/PHASE25_RELIABILITY.md",
+      "sha256": "2ad6025c21de2ccc607f4f7b74934864e58a7ddee2b6db9e194fc1754705e950",
+      "size": 3435
+    },
+    {
+      "path": "docs/PUBLIC_CLONE_VERIFICATION.md",
+      "sha256": "5d1bbfe9b8c217fd9be6b0484a9095e6dceef69180ba4d98d7cf9f79cbcf3121",
+      "size": 3353
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "sha256": "8b66ea254215eda0becd12bf332064c8faebf2f93b52bfd2b6c4f7d77b5a6db1",
+      "size": 1061
+    },
+    {
+      "path": "docs/RECIPE_AUDIT.md",
+      "sha256": "c93a0363283e2aa56a13026f9b1fc488a1c13c5dca71fb92ff76ff559d9673fa",
+      "size": 4759
+    },
+    {
+      "path": "docs/RELEASE_CHECKLIST.md",
+      "sha256": "4d1cdf72f719e505a4cb8723c177890a09e27f8e928226b491c6f0c779f7d8ce",
+      "size": 2529
+    },
+    {
+      "path": "docs/RELEASE_READINESS_REVIEW.md",
+      "sha256": "294727a03f28783f2ccd48e60798e78790956aaae00d2dce416d6a0d5b0c2ab4",
+      "size": 4390
+    },
+    {
+      "path": "docs/ROSIERIOT_OVERDRIVE_LAB.md",
+      "sha256": "e5cd1f7ef6f3a7b3c67708a537b3e19e991ef8a09c7c83a1919b4ea9d8b8acda",
+      "size": 2699
+    },
+    {
+      "path": "docs/ROSIE_VISUAL_STANDARD.md",
+      "sha256": "bda16363680c3951f0992e1b6936728aa70cde0d3d59bc84ee198e3b93ccae93",
+      "size": 2130
+    },
+    {
+      "path": "docs/SHA256_MANIFEST.json",
+      "sha256": "38d82412583a6f0c5028f6deadeed8c503d14d3effbf17cd8e5d977bf929c989",
+      "size": 2785
+    },
+    {
+      "path": "docs/TOOL_COVER_MAP.json",
+      "sha256": "3d69273cbf446d572aef2f18ed566e1d6e5f2c62d7ae17f18a065bdeb9a0096a",
+      "size": 5782
+    },
+    {
+      "path": "docs/TOOL_STARTER_GUIDE.md",
+      "sha256": "7d3e7bd1e90085d1a8c085f9c98bfe4df89f3392ffd9d4b4c1c52725d7a75427",
+      "size": 6517
+    },
+    {
+      "path": "docs/TOOL_VAULT.md",
+      "sha256": "ba6574bc142a59884b61cd38538c21930e647f48dc6bfe442897581065ed7ed1",
+      "size": 22149
+    },
+    {
+      "path": "docs/WORKSHOP_HANDOFF.md",
+      "sha256": "968d750c34b1416b8ea6a394b0deae9c83258ce133867f566cec6cb1836dfa28",
+      "size": 6166
+    },
+    {
+      "path": "docs/tool-showcases/CATCH_ME_IN_THE_CHAOS.md",
+      "sha256": "86d306ae0250592da3f5f00e131586f64bcd640afa049f419451ea350b613d22",
+      "size": 7254
+    },
+    {
+      "path": "docs/tool-showcases/DARK_DESIRE.md",
+      "sha256": "f7bc4838eb16f6e7c8c6dc6bf418c040f8da6db11d9c7b68c002b11c78acaa24",
+      "size": 7032
+    },
+    {
+      "path": "docs/tool-showcases/DOMAIN_INTEL.md",
+      "sha256": "1014243c0976458922e35e23bb690e39c38b03d8d5a7504c5c8a25911b28f749",
+      "size": 8277
+    },
+    {
+      "path": "docs/tool-showcases/DOMAIN_PHANTOM.md",
+      "sha256": "049b9df1f52e26450beaec1e1d8101e6b743d75134913fc13b2975be4f709ede",
+      "size": 7482
+    },
+    {
+      "path": "docs/tool-showcases/FIND_ME_IF_YOU_LOVE_ME.md",
+      "sha256": "3e7e5a140fcea4640d1bafc0915edb62c4cdedf6440f75f732283f77b932d1a9",
+      "size": 7208
+    },
+    {
+      "path": "docs/tool-showcases/GHOSTMARK.md",
+      "sha256": "c9cbbfa6dd32b9398dd731c148e7b34cb630d8d38dbeb9d73f8a5a807d07e4ef",
+      "size": 7831
+    },
+    {
+      "path": "docs/tool-showcases/GHOST_IN_MY_HEART.md",
+      "sha256": "6760a82f9463cd59a23d3ec3da1d3a81127628777a87180c0e8462e3f2c585bc",
+      "size": 7411
+    },
+    {
+      "path": "docs/tool-showcases/HACKGIRL_INTEL.md",
+      "sha256": "eae636901dcd3024ae838a0107d1a5f1dfc98044d0ec1720bf34d84ce0735e73",
+      "size": 9069
+    },
+    {
+      "path": "docs/tool-showcases/HEXWAKE.md",
+      "sha256": "24586b7abb3d5fb1793c0526e36576eabcb9a82d3672117eb38ca64b55bd3a21",
+      "size": 6473
+    },
+    {
+      "path": "docs/tool-showcases/IP_SHADOW_SCRAPER.md",
+      "sha256": "358afe6f86cfc7fd8e646a05dcf32421278783e8060c195c21dacf3fd97ddbf1",
+      "size": 7148
+    },
+    {
+      "path": "docs/tool-showcases/IP_SPECTER.md",
+      "sha256": "30bb6e529a9ca663564f08a7de87617c7f2c20d725832bc2eacb190dff0986fe",
+      "size": 6837
+    },
+    {
+      "path": "docs/tool-showcases/LOG_CONSTELLATION.md",
+      "sha256": "ac2fac7f24d66f67d048b2de9e0314af4f3dcd9ef6cd3b41529b3150ba07308f",
+      "size": 7301
+    },
+    {
+      "path": "docs/tool-showcases/NEON_ROSE_PHANTOM_3.md",
+      "sha256": "401decc6ec8824af6b42de4e2003b960fc7e71efb53b7084bb516d9a80622c0c",
+      "size": 7791
+    },
+    {
+      "path": "docs/tool-showcases/PHANTOM_CIPHERBOX.md",
+      "sha256": "6f312899c386c45030df0c12042d162fc952d06974e005fd6e543c3f5ddf38da",
+      "size": 7712
+    },
+    {
+      "path": "docs/tool-showcases/ROSE_CRAWLER.md",
+      "sha256": "fc783cdd8ac827b7e42633df35a3ef6368210bdebd1860e4d89f37872da57e03",
+      "size": 8053
+    },
+    {
+      "path": "docs/tool-showcases/ROSIE_PHANTOM_SCAN_V2.md",
+      "sha256": "0218a94f30351ad703704a1dfb3295e808df373bc489236273072ad089a10670",
+      "size": 8194
+    },
+    {
+      "path": "docs/tool-showcases/SCREAMFRAME.md",
+      "sha256": "2fbc5d4ea34d84317e0576b880fc577497fd3452e80330a110c9e8d99c0b9402",
+      "size": 5192
+    },
+    {
+      "path": "docs/tool-showcases/SHOWCASE_TEMPLATE.md",
+      "sha256": "13cfd93e378955ee09590855ea4aacdb97f3344f2d0a57ffc4d097958752f1fa",
+      "size": 3856
+    },
+    {
+      "path": "docs/tool-showcases/SIGNAL_GARDEN.md",
+      "sha256": "03d8a0b5bd01d3d88394b1f073ef75dd8330850ca6a5a8993f489761033bbd25",
+      "size": 7202
+    },
+    {
+      "path": "docs/tool-showcases/SUBDOMINATRIX.md",
+      "sha256": "167e52c03fad3ddb39201d64c885038a9990285b7b3099111351cac0124247b2",
+      "size": 8869
+    },
+    {
+      "path": "docs/tool-showcases/USERNAME_INTEL.md",
+      "sha256": "f325f9d73e314663793232dd81276d6146dc5683a10e55e8810b2c59836c7bc1",
+      "size": 6858
+    },
+    {
+      "path": "docs/tool-showcases/VELVETECHO.md",
+      "sha256": "19e1709613e2bc7f35b7a938d627992c6fde068cb5a6abd999c0d2a1e8c305e7",
+      "size": 6653
+    },
+    {
+      "path": "docs/tool-showcases/VOIDLANTERN.md",
+      "sha256": "ccc41c3df634bb48e1b2ecc1de0c6b592c723d16cc01049ec07a9e4fee496405",
+      "size": 8797
+    },
+    {
+      "path": "docs/tool-showcases/X_INTEL_PHANTOM.md",
+      "sha256": "720b5f320445ba2068c56c24d82fd9755ee8031f1fa2699db22bfaba6698a039",
+      "size": 8949
+    },
+    {
+      "path": "docs/tool-showcases/X_SHADOW_NO_API.md",
+      "sha256": "c6e77ccb15cc0587f1f22edef6717e84136b1b0e9ede25a15e0d0da156d33843",
+      "size": 8848
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "ea6da9077ea83f4047841494136a8dc3cadfb822ea89aeea7f61078909af4a0f",
+      "size": 57
+    },
+    {
+      "path": "scripts/link_tool_covers.py",
+      "sha256": "0c6956cf7624a2bee393ac81641a12f2a0c53c772bec212093350341015718a2",
+      "size": 3531
+    },
+    {
+      "path": "scripts/phantom_quickopen.py",
+      "sha256": "9b584733bc7e61e6b8a5368d78c52b825ccccdd7c6c240c085e822add569a109",
+      "size": 9715
+    },
+    {
+      "path": "tests/test_ghostmark_integrity_atlas.py",
+      "sha256": "48b97a859e3d690c431907034bbb03400a16741a8bd09cdc167c89af07f876d4",
+      "size": 4854
+    },
+    {
+      "path": "tests/test_hexwake_palette_foundry.py",
+      "sha256": "24457012815b7f0f6b5237ac14dec620bfd84527451533ccf9f9c28fcbbeae43",
+      "size": 2988
+    },
+    {
+      "path": "tests/test_ip_shadow_tls_policy.py",
+      "sha256": "1ccd78b374b4ce963e129c8439c9c6f8adb0a09505ff859ae1602c701faeb68e",
+      "size": 2623
+    },
+    {
+      "path": "tests/test_offline_terminal_verification.py",
+      "sha256": "7c9c53003aa4af88045857e5bd1f71069d49eb2a77a49efb9d15b44092d2f79d",
+      "size": 7756
+    },
+    {
+      "path": "tests/test_phantom_cipherbox.py",
+      "sha256": "215d82cf406bde1dd936255ab5f382473ff1feee35f201ac3a0107b57c51f99b",
+      "size": 4024
+    },
+    {
+      "path": "tests/test_phantom_quickopen.py",
+      "sha256": "1f47f672478bf704a6a9dc8f27098ffcd8ffa890314ef370aca2a512aba12e8f",
+      "size": 5025
+    },
+    {
+      "path": "tests/test_phase25_source_reliability.py",
+      "sha256": "9f150aa1dbf29544dd6fe1d8964d89ad1f6375084347f4bb54cb60850a9c7ba3",
+      "size": 2753
+    },
+    {
+      "path": "tests/test_published_copy_paste_recipes.py",
+      "sha256": "5afcdb7a35eec8a7eb3c2bcf35b07a740b2d146f0ba8bd91b07dccbf34000474",
+      "size": 3154
+    },
+    {
+      "path": "tests/test_repository.py",
+      "sha256": "5d8d218effd31ab6735daf82a58ff05b61112e6ce39235f33ec9ae9ad01c252b",
+      "size": 682
+    },
+    {
+      "path": "tests/test_rosie_phantom_scan_v2.py",
+      "sha256": "8dab55a325bdb15805f066175872a2f9c0303f14f2fe08dc16cf48605f1a8023",
+      "size": 4142
+    },
+    {
+      "path": "tests/test_subdominatrix.py",
+      "sha256": "68d5f30c2e1ad56903c9f61be0fd70dfa5c5133312248d904335761754c063f2",
+      "size": 7071
+    },
+    {
+      "path": "tests/test_tool_recipe_audit.py",
+      "sha256": "2b4088b318e0a18870c9af95171c1f80a43cecbbfeb4d245ccbe39afa80a10e2",
+      "size": 4274
+    },
+    {
+      "path": "tests/test_tool_vault_doors.py",
+      "sha256": "fcbbba545b583320e0b5aa14fcb194f3245a490ba04e4a9ba230f3eed5b68cd8",
+      "size": 3579
+    },
+    {
+      "path": "tests/test_velvetecho_persona_observatory.py",
+      "sha256": "5b9b4e4fb1f094baed601c0a625ad25124b820588465441e67d2435629059152",
+      "size": 10841
+    },
+    {
+      "path": "tools/ghostmark_integrity_atlas.py",
+      "sha256": "aecf567a5b6fbfd8337b058d4c60f2f0d439fdece714175ced12397549f084d5",
+      "size": 14080
+    },
+    {
+      "path": "tools/glitchbyte_domain_intel.py",
+      "sha256": "ab5818a0c6aa77c431fc62ce86d76151b336fec59a27576cc8d8752f2b06b44a",
+      "size": 7604
+    },
+    {
+      "path": "tools/glitchbyte_log_constellation.py",
+      "sha256": "1165a1fe1a4901fa1a7973b8d13ae96295e67776caf1b39965af04fecba6aef0",
+      "size": 8329
+    },
+    {
+      "path": "tools/glitchbyterosie_x_intel.py",
+      "sha256": "a41e2c87b94b6149a4d8ff0616ed57bde087924b58b94500fd0c5babc444e2fb",
+      "size": 11355
+    },
+    {
+      "path": "tools/glitchbyterosie_x_no_api.py",
+      "sha256": "2ce0a2f6bf7d4e7b877f8da0a5498c845fba72b987f78df9e1bab2c61b8d34bb",
+      "size": 9349
+    },
+    {
+      "path": "tools/go/voidlantern-go/.github/workflows/go-test.yml",
+      "sha256": "a63b98b675f9cae13d101f0eafd34a8a9e71f3ca75ec00d4297eef7a8575ab4d",
+      "size": 514
+    },
+    {
+      "path": "tools/go/voidlantern-go/.gitignore",
+      "sha256": "4a6e9601e7782b23db88e61d6fcc1b7465f74e8120bfb625ec85da7ef69940da",
+      "size": 63
+    },
+    {
+      "path": "tools/go/voidlantern-go/CHANGELOG.md",
+      "sha256": "88f25a5129608ed1ec5561c4b5e5fdbefb239116fdbe54c17207f575d676fd74",
+      "size": 605
+    },
+    {
+      "path": "tools/go/voidlantern-go/README.md",
+      "sha256": "2de702bfbc1db204e625d56f512e91377ae7875c43e377aa8b7b4f00145c5cd1",
+      "size": 2226
+    },
+    {
+      "path": "tools/go/voidlantern-go/go.mod",
+      "sha256": "66050deb9fdb81f0f4b7ae4b4f23c359ed728a94fcdb8e51b82cb257567d2dea",
+      "size": 63
+    },
+    {
+      "path": "tools/go/voidlantern-go/main.go",
+      "sha256": "3c7bdef33663d7685b2caedc3846bdf469f2941113ea3d7478ab3c4e942f12ff",
+      "size": 4768
+    },
+    {
+      "path": "tools/go/voidlantern-go/main_test.go",
+      "sha256": "9a6f156a96bf5acfd13b4864281c26983cfd1e6cdab8910116969b81a3d1baef",
+      "size": 647
+    },
+    {
+      "path": "tools/hexwake_palette_foundry.py",
+      "sha256": "cfd148f58c889dcb50db62288c93e7fa6e90ee09102eb54043cc1d99094cbb34",
+      "size": 9287
+    },
+    {
+      "path": "tools/phantom_cipherbox.py",
+      "sha256": "a705cfe85b550d8ce9473a17e839c5ebb1779d7be625327d48cf5c7377ddaddb",
+      "size": 8184
+    },
+    {
+      "path": "tools/rose_crawler.py",
+      "sha256": "4b2c002b8a062e127ba6192de3666a5b9ba8c76add62eebf94c895b3b0dba9ef",
+      "size": 8740
+    },
+    {
+      "path": "tools/rosie_catch_me_chaos.py",
+      "sha256": "07513a3cd67b7e7ca16084bdd73a3dbc6cbac9acc3a8a23289b2635c11a7bf10",
+      "size": 6901
+    },
+    {
+      "path": "tools/rosie_dark_desire.py",
+      "sha256": "0f0e6b633c549b9bd8f13b13a7ebb274ce2fa69034bce025a9d720bca285d575",
+      "size": 8451
+    },
+    {
+      "path": "tools/rosie_ghost_heart.py",
+      "sha256": "e761ced0da81b2e1a684cef86fd467cfbcc9fda68711d34be27da20469a71ecc",
+      "size": 5467
+    },
+    {
+      "path": "tools/rosie_hide_seek.py",
+      "sha256": "89353c06bf27f3a2ee453ea6c61a51c1ffa4076f28990fc38c829fcc361aedd3",
+      "size": 7146
+    },
+    {
+      "path": "tools/rosie_ip_shadow_scraper.py",
+      "sha256": "f8f0dad1f271295a9928fcb76a8338cfe795d03af9118d2c2da776d15d0a7d06",
+      "size": 8986
+    },
+    {
+      "path": "tools/rosie_phantom_scan_v2.py",
+      "sha256": "4e44980b0aa594b8b400a182f5d58800198d3bcf448e9f926e99dc570a59b162",
+      "size": 20125
+    },
+    {
+      "path": "tools/rosie_signal_garden.py",
+      "sha256": "f5f5304a16895f60f5a6628dc238553d04985e4efeda1ecff111c19a50755bb7",
+      "size": 8007
+    },
+    {
+      "path": "tools/rosie_username_intel.py",
+      "sha256": "76ff51d7a8f3aeaeb0252631470fcba471ebf76d7db768f775ca2e74e7510495",
+      "size": 3563
+    },
+    {
+      "path": "tools/rosieglitchbyte_domain_phantom.py",
+      "sha256": "3ac4b24cf5de4ef04e630c141b86333666570100a0a1f3eae8177dbe98aaecb0",
+      "size": 9357
+    },
+    {
+      "path": "tools/rosieglitchbyte_hackgirl.py",
+      "sha256": "642a5f2170f4f2fd25e62fb6fe61f9f929c7de28e41104c298e5b0328889438c",
+      "size": 13242
+    },
+    {
+      "path": "tools/rosieglitchbyte_ip_specter.py",
+      "sha256": "9978b8c56ac160f137d7f2356ee2d7caf49a4abc19e225fb815b1090ac7e896b",
+      "size": 6234
+    },
+    {
+      "path": "tools/rosieglitchbyte_neon_rose_phantom_3.py",
+      "sha256": "435523659a7864cfa2f3878f326c0b3b29daded2565fdfac3c48d22b0e20f644",
+      "size": 9842
+    },
+    {
+      "path": "tools/screamframe-pixel-autopsy/README.md",
+      "sha256": "93a0aefc090570c612330902e812ba65dd4c420f61889af5ca1855e0f48418c8",
+      "size": 5641
+    },
+    {
+      "path": "tools/screamframe-pixel-autopsy/examples/screamframe_synthetic_fixture.json",
+      "sha256": "4ae955080c11125a22ed04da9f0f910a5a70bf9661481721891d55a75f1c39e0",
+      "size": 559
+    },
+    {
+      "path": "tools/screamframe-pixel-autopsy/requirements.txt",
+      "sha256": "a6aa4945334d7e5c05151676e8dfca726780a9e4d154310a34df06f4137f1c92",
+      "size": 17
+    },
+    {
+      "path": "tools/screamframe-pixel-autopsy/screamframe_pixel_autopsy.py",
+      "sha256": "3eac634cb2436609b6fc145a8938a1518f4a5ca601a849c567588779dc3573f0",
+      "size": 17086
+    },
+    {
+      "path": "tools/screamframe-pixel-autopsy/tests/test_screamframe_pixel_autopsy.py",
+      "sha256": "9b615643ee02f487186f35526bd62a0bfb617d1c2630e123b1d3351c1bf4e150",
+      "size": 4436
+    },
+    {
+      "path": "tools/subdominatrix.py",
+      "sha256": "217b7768f45fc138f329259ba255705b77eba4b639d2155f200fc6b4e205483f",
+      "size": 27343
+    },
+    {
+      "path": "tools/velvetecho-persona-observatory/README.md",
+      "sha256": "bda5f9fa8b55a25129f00e2be774237b3938aa078b167b57578c2f81f5fb712d",
+      "size": 7758
+    },
+    {
+      "path": "tools/velvetecho-persona-observatory/catalog.example.json",
+      "sha256": "0d0968b3e7095d51cd110b15689e8a403f02a54c616449d9a5ac33c7dc60f216",
+      "size": 258
+    },
+    {
+      "path": "tools/velvetecho-persona-observatory/velvetecho_persona_observatory.py",
+      "sha256": "ec0b7ee20194ec88f58562bb8a1cb69e1265127d3b4fb8b2fc4e0d00ed36a3ce",
+      "size": 28226
+    }
+  ],
+  "source_url": "https://github.com/Hellfire13666/glitchbyte-phantom-labs/tree/46a95c705f2b24631740a30e235004340274bf33"
+}

@@ -6,6 +6,8 @@
 
 The verified [October 19, 2026 Headquarters archive](../snapshots/2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.zip) contains the 24 named tools below, **plus** tests, README pages, example files and the six artwork files that were committed by that source revision.
 
+**Future tools and build recipes:** [Build → Run → Publish → Vault standard](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BUILD_PUBLICATION_STANDARD.md) · [Simple / Medium / Extra examples](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BEGINNER_RUNTIME_RECIPES.md) · [Current Tool Vault source/guide doors](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/TOOL_VAULT.md). This recovery index lists verified historical archive contents; it is extended only **after** a new verified backup is made.
+
 **Restoring one tool:** [Download the archive](../snapshots/2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.zip), verify the [SHA-256 checksum](../snapshots/SHA256SUMS.txt), unzip it to a separate folder, and find the shown tool path under `glitchbyte-phantom-labs/`. Companion package directories and example files are preserved, too.
 
 **These are all inside one full repository ZIP, not 24 separate tool ZIPs.** For the latest source revision instead of this historical version, check [latest.json](../snapshots/latest.json).

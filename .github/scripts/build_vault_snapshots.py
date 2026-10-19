@@ -45,7 +45,7 @@ def main() -> None:
     date_dir = ROOT / "snapshots" / stamp
     latest = ROOT / "snapshots" / "latest.json"
     previous = json.loads(latest.read_text(encoding="utf-8")) if latest.is_file() else {}
-    previous_items = {x["repository"]: x for x in previous.get("backups", [])}
+    previous_items = {x["repository"].split("/")[-1]: x for x in previous.get("backups", [])}
     jobs = []
 
     with tempfile.TemporaryDirectory(prefix="phantom-vault-") as temp:

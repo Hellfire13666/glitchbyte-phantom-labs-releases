@@ -41,10 +41,12 @@ Unpack the **exact version specified in** [latest.json](../snapshots/latest.json
 ```bash
 mkdir -p "$HOME/PhantomLabsRecovered"
 cd "$HOME/PhantomVaultBackup/snapshots"
-unzip -n 2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.zip -d "$HOME/PhantomLabsRecovered"
-unzip -n 2026-10-19/rosieriot-overdrive-2026-521b7c53599c.zip -d "$HOME/PhantomLabsRecovered"
+unzip -n 2026-10-19/glitchbyte-phantom-labs-4be41644437e.zip -d "$HOME/PhantomLabsRecovered"
+unzip -n 2026-10-19/rosieriot-overdrive-2026-d82fc9402d60.zip -d "$HOME/PhantomLabsRecovered"
 find "$HOME/PhantomLabsRecovered" -maxdepth 2 -type f | head -40
 ```
+
+**October 19, 2026 verified backup run:** [GitHub Actions #39329790920](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39329790920) passed ZIP integrity, SHA-256 verification and snapshot publication. [Latest index](../snapshots/latest.json) lists the pinned commit for each source repository. GitHub's Node.js 20 / Ubuntu runner migration annotations are informational, not archive failures.
 
 These examples refer to one verified version; check the latest index for any newer release. Archives contain a top-level directory named after each project, preserving the original paths. Never extract unverified ZIPs into your working installation, and run the project's offline tests before using recovered code.
 

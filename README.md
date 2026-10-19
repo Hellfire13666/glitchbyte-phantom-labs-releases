@@ -19,6 +19,8 @@ Our [Build → Run → Publish → Vault standard](https://github.com/Hellfire13
 
 **🔧 Recently verified external integration:** [Findomain live discovery + three beginner runtime recipes](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/integrations/FINDOMAIN_LIVE_CHECK.md). This is a current how-to page in Headquarters, **not a new vaulted binary or archive**. Historic snapshots below remain unchanged.
 
+**Current HQ-only SUBDOMINATRIX follow-up:** [Findomain timeout and partial-result correction](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/SUBDOMINATRIX.md) is merged and CI-tested. It is **not** in an archive until a fresh ZIP and checksums are generated and verified. No historical snapshot changes were made.
+
 **🌹 New HQ source release:** [SUBDOMINATRIX terminal-only live signal](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/SUBDOMINATRIX.md) passed Python CI in main. **The dated backup ZIPs below predate this source upgrade**; this page does not claim the new code is already archived. A fresh backup must be generated and its checksum verified before updating the recovery index.
 
 ## 🚪 Phantom Backup HQ doors

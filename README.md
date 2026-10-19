@@ -6,14 +6,14 @@
 
 ![Phantom Vault artwork](https://raw.githubusercontent.com/Hellfire13666/glitchbyte-phantom-labs/main/artwork/vaultlab.png)
 
-# 🔐 GLITCHBYTE PHANTOM VAULT
-### The verified safety archive of Phantom Labs
+# 🔐 PHANTOM BACKUP HQ
+### GlitchByte Phantom Labs | Verified safety archive
 
 **“Build it. Test it. Archive it. Verify it. Protect the original.”**
 
 </div>
 
-## 🚪 Instant Vault doors
+## 🚪 Phantom Backup HQ doors
 
 | Destination | Open |
 | --- | --- |
@@ -54,7 +54,7 @@ Each version records the exact Git source commit, tracked-file list, per-file SH
 | 👻 Phantom Labs HQ | [Headquarters](https://github.com/Hellfire13666/glitchbyte-phantom-labs) | [📤 HQ door](https://github.com/Hellfire13666/glitchbyte-phantom-labs/upload/main) |
 | 🌱 Cultivation Room | [Building laboratory](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/CULTIVATION_ROOM.md) | [📤 Cultivation door](https://github.com/Hellfire13666/glitchbyte-phantom-labs/upload/main) |
 | ⚡ RosieRiot Overdrive | [Tool repository](https://github.com/Hellfire13666/rosieriot-overdrive-2026) | [📤 Overdrive door](https://github.com/Hellfire13666/rosieriot-overdrive-2026/upload/main) |
-| 🔐 Phantom Vault | [Backup repository](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases) | [📤 Vault door](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/upload/main) |
+| 🔐 Phantom Backup HQ | [Backup repository](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases) | [📤 Vault door](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/upload/main) |
 
 The Cultivation Room is part of Headquarters, not a separate source repository. Every standalone future tool repo must be added explicitly to the snapshot allowlist before its files are protected.
 

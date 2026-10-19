@@ -26,6 +26,17 @@
 
 **Archive status:** An archive is confirmed only when its ZIP, JSON file manifest, and checksum can be found under `snapshots/` and verified successfully. If those files are absent, a workflow or README alone is **not** a completed backup.
 
+## 📦 Latest verified recovery set (October 19, 2026 UTC)
+
+| Backup | Download / inspect | Complete manifest |
+| --- | --- | --- |
+| 👻 **Phantom Labs HQ** · 109 files, including 6 published images | [📥 Full archive ZIP](snapshots/2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.zip) | [SHA-256 file manifest](snapshots/2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.manifest.json) |
+| ⚡ **RosieRiot Overdrive** · 14 files, including 4 images and its original ZIP | [📥 Full archive ZIP](snapshots/2026-10-19/rosieriot-overdrive-2026-521b7c53599c.zip) | [SHA-256 file manifest](snapshots/2026-10-19/rosieriot-overdrive-2026-521b7c53599c.manifest.json) |
+
+**Checksums passed:** [View the two matching SHA-256 digests](snapshots/SHA256SUMS.txt). [View successful GitHub backup run](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39183929281).
+
+These links identify the first confirmed version. When the source repositories change, use [latest.json](snapshots/latest.json) to find the newest verified backups.
+
 ## What is preserved
 
 - **Phantom Labs Headquarters:** all currently committed tool source, test scripts, lab and tool READMEs, images, and existing project files

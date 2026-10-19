@@ -1,0 +1,26 @@
+{
+  "backups": [
+    {
+      "archive_path": "snapshots/2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.zip",
+      "archive_sha256": "226836799aeae778ca1c360f85273262bfe46ab598aa38ccedf0f59779fb78be",
+      "file_count": 109,
+      "manifest_path": "snapshots/2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.manifest.json",
+      "repository": "Hellfire13666/glitchbyte-phantom-labs",
+      "source_commit": "148ff3c454bf25629691785b8285146009319823",
+      "source_url": "https://github.com/Hellfire13666/glitchbyte-phantom-labs/tree/148ff3c454bf25629691785b8285146009319823"
+    },
+    {
+      "archive_path": "snapshots/2026-10-19/rosieriot-overdrive-2026-521b7c53599c.zip",
+      "archive_sha256": "27455555e1c5450abe6bc64a97ad768f9eb2995f3b629fc6c75a91ec204bb69e",
+      "file_count": 14,
+      "manifest_path": "snapshots/2026-10-19/rosieriot-overdrive-2026-521b7c53599c.manifest.json",
+      "repository": "Hellfire13666/rosieriot-overdrive-2026",
+      "source_commit": "521b7c53599ca772730163f6006f9e18ad9c96b9",
+      "source_url": "https://github.com/Hellfire13666/rosieriot-overdrive-2026/tree/521b7c53599ca772730163f6006f9e18ad9c96b9"
+    }
+  ],
+  "checksum_file": "snapshots/SHA256SUMS.txt",
+  "created_utc": "2026-10-19T01:08:13.280751+00:00",
+  "notice": "Only committed, public GitHub files are covered; keep a second copy offline.",
+  "schema_version": 1
+}

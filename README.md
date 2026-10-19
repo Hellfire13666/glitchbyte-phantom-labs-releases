@@ -25,6 +25,10 @@ Our [Build → Run → Publish → Vault standard](https://github.com/Hellfire13
 
 **💾 Easy-save convention now adopted:** [SUBDOMINATRIX's `-o name.txt` command](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/SUBDOMINATRIX.md) saves a single hostname list when requested. The [future-build standard](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BUILD_PUBLICATION_STANDARD.md) documents the convention for upcoming tools. **Existing dated backup snapshots are historical and are not updated by this link.**
 
+## 💾 Easy Save for every published tool guide
+
+[**Universal `-o name.txt` / `--o name.txt` instructions**](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/EASY_SAVE_ALL_TOOLS.md) explain how to save real printed terminal feedback from existing CLI tools, with a separate native hostname TXT option in SUBDOMINATRIX. All 24 HQ tool guides contain a save example and a note about their actual behavior. **This does not add new binaries or update the dated verified archives below**; refresh and verify new snapshots separately.
+
 ## 🚪 Phantom Backup HQ doors
 
 | Destination | Open |

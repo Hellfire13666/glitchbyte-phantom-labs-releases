@@ -49,12 +49,12 @@ Our [Build → Run → Publish → Vault standard](https://github.com/Hellfire13
 
 | Backup | Download / inspect | Complete manifest |
 | --- | --- | --- |
-| 👻 **Phantom Labs HQ** · 109 files, including 6 published images | [📥 Full archive ZIP](snapshots/2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.zip) | [SHA-256 file manifest](snapshots/2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.manifest.json) |
-| ⚡ **RosieRiot Overdrive** · 14 files, including 4 images and its original ZIP | [📥 Full archive ZIP](snapshots/2026-10-19/rosieriot-overdrive-2026-521b7c53599c.zip) | [SHA-256 file manifest](snapshots/2026-10-19/rosieriot-overdrive-2026-521b7c53599c.manifest.json) |
+| 👻 **Phantom Labs HQ** · 147 committed files (27 image assets), source `4be41644437e` | [📥 Full archive ZIP](snapshots/2026-10-19/glitchbyte-phantom-labs-4be41644437e.zip) | [SHA-256 file manifest](snapshots/2026-10-19/glitchbyte-phantom-labs-4be41644437e.manifest.json) |
+| ⚡ **RosieRiot Overdrive** · 14 committed files (4 image assets), source `d82fc9402d60` | [📥 Full archive ZIP](snapshots/2026-10-19/rosieriot-overdrive-2026-d82fc9402d60.zip) | [SHA-256 file manifest](snapshots/2026-10-19/rosieriot-overdrive-2026-d82fc9402d60.manifest.json) |
 
-**Checksums passed:** [View the two matching SHA-256 digests](snapshots/SHA256SUMS.txt). [View successful GitHub backup run](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39183929281).
+**Checksums and publication passed:** [Matching SHA-256 digests](snapshots/SHA256SUMS.txt) · [Successful versioned backup workflow #39329790920](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39329790920). Both source-commit SHAs matched their repositories' main-branch heads during the October 19 check; the recorded ZIPs and manifests are present. The workflow's archive-integrity check, checksum check, and publication step all passed.
 
-These links identify the first confirmed version. When the source repositories change, use [latest.json](snapshots/latest.json) to find the newest verified backups.
+Older snapshots remain in [snapshots](snapshots/). Always consult [latest.json](snapshots/latest.json) before restoring, since subsequent source changes require new backups. The original **local** Triad Forge installation/ZIP, as opposed to published committed source files, is not covered by this hosted archive.
 
 ## What is preserved
 

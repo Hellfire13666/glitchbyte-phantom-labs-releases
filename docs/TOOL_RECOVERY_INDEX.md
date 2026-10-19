@@ -4,6 +4,8 @@
 
 # 🔐 Phantom Backup HQ | Find Any Tool Backup
 
+**✅ Latest verified full Headquarters source backup:** [147-file ZIP at commit `4be41644437e`](../snapshots/2026-10-19/glitchbyte-phantom-labs-4be41644437e.zip) · [its per-file hash manifest](../snapshots/2026-10-19/glitchbyte-phantom-labs-4be41644437e.manifest.json) · [latest.json](../snapshots/latest.json). This includes the Oct 19 `scripts/triad_signal_2026.py` privacy fix, `scripts/phantom_easy_save.py` and `tools/subdominatrix.py`. The 24-tool historical index below intentionally stays pinned to the earlier `148ff3c454bf` version; use the newer verified ZIP for current source files. [Passing backup workflow #39329790920](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39329790920).
+
 The verified [October 19, 2026 Headquarters archive](../snapshots/2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.zip) contains the 24 named tools below, **plus** tests, README pages, example files and the six artwork files that were committed by that source revision.
 
 **Future tools and build recipes:** [Build → Run → Publish → Vault standard](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BUILD_PUBLICATION_STANDARD.md) · [Simple / Medium / Extra examples](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BEGINNER_RUNTIME_RECIPES.md) · [Current Tool Vault source/guide doors](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/TOOL_VAULT.md). This recovery index lists verified historical archive contents; it is extended only **after** a new verified backup is made.

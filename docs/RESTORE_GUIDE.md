@@ -20,34 +20,29 @@ Snapshots include only files committed to GitHub. Uncommitted changes, local-onl
 
 ## Verify SHA-256 checksums (Ubuntu/Linux)
 
-Download `snapshots/SHA256SUMS.txt` and the ZIP files in their **original dated subfolders**. From the folder containing `SHA256SUMS.txt`, run:
+**Simplest reliable method:** clone the Vault repository to keep all dated folders and hashes aligned:
 
 ```bash
-cd "$HOME/Downloads/snapshots"
+git clone https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases.git "$HOME/PhantomVaultBackup"
+cd "$HOME/PhantomVaultBackup/snapshots"
 sha256sum -c SHA256SUMS.txt
 ```
 
-Each listed archive should report `OK`. A missing file produces a warning; a mismatched checksum means **do not restore** until you obtain a verified copy.
-
-Optionally verify archive integrity:
-
-```bash
-unzip -t 2026-10-18/glitchbyte-phantom-labs-REPLACE_WITH_SHA_PREFIX.zip
-unzip -t 2026-10-18/rosieriot-overdrive-2026-REPLACE_WITH_SHA_PREFIX.zip
-```
+Each archive must return `OK`. A checksum mismatch means **do not restore that archive**. You can also open the `snapshots/latest.json` file to find the precise versions and expected hashes. Full ZIP integrity was verified before each archive was published.
 
 ## Recover safely
 
-Never unpack untrusted archives on top of production tools without reviewing their contents first.
+Unpack the **exact version specified in** [latest.json](../snapshots/latest.json) to a new folder. Current verified example (UTC 2026-10-19):
 
 ```bash
 mkdir -p "$HOME/PhantomLabsRecovered"
-unzip -n 2026-10-18/glitchbyte-phantom-labs-REPLACE_WITH_SHA_PREFIX.zip -d "$HOME/PhantomLabsRecovered"
-unzip -n 2026-10-18/rosieriot-overdrive-2026-REPLACE_WITH_SHA_PREFIX.zip -d "$HOME/PhantomLabsRecovered"
+cd "$HOME/PhantomVaultBackup/snapshots"
+unzip -n 2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.zip -d "$HOME/PhantomLabsRecovered"
+unzip -n 2026-10-19/rosieriot-overdrive-2026-521b7c53599c.zip -d "$HOME/PhantomLabsRecovered"
 find "$HOME/PhantomLabsRecovered" -maxdepth 2 -type f | head -40
 ```
 
-Each archive preserves the repository directory name and original relative paths. These recovered files are **source snapshots**, not proof the software was tested or installed. Run the relevant offline verification commands from each project's README.
+These examples refer to one verified version; check the latest index for any newer release. Archives contain a top-level directory named after each project, preserving the original paths. Never extract unverified ZIPs into your working installation, and run the project's offline tests before using recovered code.
 
 ## Update or re-run the backup
 

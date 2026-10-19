@@ -23,6 +23,8 @@ Our [Build → Run → Publish → Vault standard](https://github.com/Hellfire13
 
 **🌹 New HQ source release:** [SUBDOMINATRIX terminal-only live signal](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/SUBDOMINATRIX.md) passed Python CI in main. **The dated backup ZIPs below predate this source upgrade**; this page does not claim the new code is already archived. A fresh backup must be generated and its checksum verified before updating the recovery index.
 
+**💾 Easy-save convention now adopted:** [SUBDOMINATRIX's `-o name.txt` command](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/SUBDOMINATRIX.md) saves a single hostname list when requested. The [future-build standard](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BUILD_PUBLICATION_STANDARD.md) documents the convention for upcoming tools. **Existing dated backup snapshots are historical and are not updated by this link.**
+
 ## 🚪 Phantom Backup HQ doors
 
 | Destination | Open |

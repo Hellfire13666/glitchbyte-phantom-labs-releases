@@ -2,7 +2,7 @@
 <div align="right"><a href="https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/upload/main"><img alt="UPLOAD FILES" src="https://img.shields.io/badge/UPLOAD-FILES-7850E8?style=flat-square&logo=github&logoColor=white"></a></div>
 <!-- GLITCHBYTE-UPLOAD-DOOR:END -->
 
-# 🔐 Phantom Vault | Find Any Tool Backup
+# 🔐 Phantom Backup HQ | Find Any Tool Backup
 
 The verified [October 19, 2026 Headquarters archive](../snapshots/2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.zip) contains the 24 named tools below, **plus** tests, README pages, example files and the six artwork files that were committed by that source revision.
 

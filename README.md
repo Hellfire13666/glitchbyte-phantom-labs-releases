@@ -21,6 +21,7 @@
 | 🗃️ **Versioned backup ZIP archives** | [Browse all snapshots](snapshots/) |
 | 🔏 **SHA-256 checksums** | [SHA256SUMS.txt](snapshots/SHA256SUMS.txt) |
 | 🧭 **Restore and verify instructions** | [Recovery guide](docs/RESTORE_GUIDE.md) |
+| 🗂️ **Find any of the 24 tools** | [Tool-by-tool recovery index](docs/TOOL_RECOVERY_INDEX.md) |
 | ⚙️ **Back up now / Actions log** | [Run Phantom Vault Versioned Backups](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/workflows/vault-backup.yml) |
 | 📤 **Direct Vault upload door** | [Upload files](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/upload/main) |
 

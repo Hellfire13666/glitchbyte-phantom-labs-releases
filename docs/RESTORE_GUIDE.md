@@ -50,6 +50,19 @@ find "$HOME/PhantomLabsRecovered" -maxdepth 2 -type f | head -40
 
 These examples refer to one verified version; check the latest index for any newer release. Archives contain a top-level directory named after each project, preserving the original paths. Never extract unverified ZIPs into your working installation, and run the project's offline tests before using recovered code.
 
+## ✅ Real Ubuntu isolated restore drill (October 19, 2026)
+
+The user downloaded the pinned Headquarters source archive `glitchbyte-phantom-labs-4be41644437e.zip` into their Ubuntu Downloads folder and completed **both** independent local checks:
+
+- `sha256sum -c` **OK** against the published SHA-256 `95436e67765756240e8705fb6f606c0691603c60304ce6c6385fab1901f0f245`.
+- `unzip -tq` reported **no errors**; all three key source files were present.
+
+Then the user extracted the same ZIP to a private isolated temporary directory, `~/PhantomLabsRecoveryTest.iPimYQ`, without modifying installed tools. The restored tree contained `scripts/triad_signal_2026.py`, `scripts/phantom_easy_save.py`, and `tools/subdominatrix.py`.
+
+**Restored software test results:** `python3 -B -m unittest discover -s "$SOURCE/tests" -p 'test_triad_signal_2026.py' -v` completed **7/7 tests, OK** in 0.497 s, including private-TXT creation under a permissive umask and invalid-argument rejection. The negative-argument test deliberately printed two `triad: error:` messages; they are an expected part of the passing test. `python3 -B "$SOURCE/tools/subdominatrix.py" example.com --offline-demo --terminal-only` completed with **13 clearly synthetic names, 5 multi-source**, **zero** direct DNS/HTTPS observations and reported `[DONE] SAVE OFF` with Firefox unopened.
+
+**Verified:** source ZIP metadata matches the published hash, archive integrity, extraction, restored entry-point existence, and these offline tests. **Not established:** production network behavior, every tool's runtime, third-party provider availability, local-only uncommitted data, security certification or an additional independent offline backup. The recovered directory remains a separate test copy and can be inspected or intentionally deleted later.
+
 ## Update or re-run the backup
 
 Open [Phantom Vault backup workflow](../.github/workflows/vault-backup.yml). From the repository's **Actions** tab, choose **Phantom Vault Versioned Backups** then **Run workflow**. The backup also checks daily for changes in the two public source repositories and only adds a new version if source commits differ from the latest completed snapshot.

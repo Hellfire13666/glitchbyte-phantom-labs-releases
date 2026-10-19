@@ -105,6 +105,10 @@ def main() -> None:
             jobs.append(entry)
             print(f"Verified {name}: {len(file_info)} files, sha256 {digest[:16]}…")
 
+    if previous.get("backups") == jobs and latest.is_file():
+        print("PASS: Source commits unchanged; existing archives rechecked. No new publication needed.")
+        return
+
     # Include all archives (new and previously current), each with an exact checksum.
     all_current = [ROOT / x["archive_path"] for x in jobs]
     sums = ROOT / "snapshots" / "SHA256SUMS.txt"

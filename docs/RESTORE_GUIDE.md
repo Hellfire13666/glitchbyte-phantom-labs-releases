@@ -20,10 +20,10 @@ Snapshots include only files committed to GitHub. Uncommitted changes, local-onl
 
 ## Verify SHA-256 checksums (Ubuntu/Linux)
 
-After downloading `SHA256SUMS.txt` and the matching ZIP files **into the same directory**, run:
+Download `snapshots/SHA256SUMS.txt` and the ZIP files in their **original dated subfolders**. From the folder containing `SHA256SUMS.txt`, run:
 
 ```bash
-cd "$HOME/Downloads"
+cd "$HOME/Downloads/snapshots"
 sha256sum -c SHA256SUMS.txt
 ```
 
@@ -32,8 +32,8 @@ Each listed archive should report `OK`. A missing file produces a warning; a mis
 Optionally verify archive integrity:
 
 ```bash
-unzip -t glitchbyte-phantom-labs-*.zip
-unzip -t rosieriot-overdrive-2026-*.zip
+unzip -t 2026-10-18/glitchbyte-phantom-labs-REPLACE_WITH_SHA_PREFIX.zip
+unzip -t 2026-10-18/rosieriot-overdrive-2026-REPLACE_WITH_SHA_PREFIX.zip
 ```
 
 ## Recover safely
@@ -42,8 +42,8 @@ Never unpack untrusted archives on top of production tools without reviewing the
 
 ```bash
 mkdir -p "$HOME/PhantomLabsRecovered"
-unzip -n glitchbyte-phantom-labs-*.zip -d "$HOME/PhantomLabsRecovered"
-unzip -n rosieriot-overdrive-2026-*.zip -d "$HOME/PhantomLabsRecovered"
+unzip -n 2026-10-18/glitchbyte-phantom-labs-REPLACE_WITH_SHA_PREFIX.zip -d "$HOME/PhantomLabsRecovered"
+unzip -n 2026-10-18/rosieriot-overdrive-2026-REPLACE_WITH_SHA_PREFIX.zip -d "$HOME/PhantomLabsRecovered"
 find "$HOME/PhantomLabsRecovered" -maxdepth 2 -type f | head -40
 ```
 

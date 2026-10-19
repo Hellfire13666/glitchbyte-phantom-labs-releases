@@ -13,6 +13,10 @@
 
 </div>
 
+## 🌈 Build documentation and distribution standard
+
+Our [Build → Run → Publish → Vault standard](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BUILD_PUBLICATION_STANDARD.md) governs **future** tools and upgrades. Each tool gets tested [Simple/Medium/Extra beginner run recipes](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BEGINNER_RUNTIME_RECIPES.md), real progress/intel output where applicable, truthful no-save/Firefox behavior, unique artwork/source, and navigation via the [Tool Vault](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/TOOL_VAULT.md). This archive indexes **only backups that actually exist and pass verification**. Documentation changes alone do not produce a new archive or guarantee new tool coverage.
+
 ## 🚪 Phantom Backup HQ doors
 
 | Destination | Open |

@@ -1,6 +1,8 @@
 055eee08c6ec473ab14cd79f88a25c53b7f7a0b2da768a6b7c2653bb9be06e9d  phantom-spine-live-signal/v0.2.0/phantom-spine-live-signal-v0.2.0.sha256
 0619cc406cc3de1beefb4e4f6d6a7207839970f48df33f06e7b7a7d0b3aa31ec  glitchbyte-phantom-labs-master-hub/v0.3.0/glitchbyte-phantom-labs-master-hub-v0.3.0.sha256
+34c328639a1388ab3b93a41469812ea4e1dc78b57517eb5cc453ca5f4af63a8f  hexbazaar-live-command-deck/v0.1.0/HEXBZ-LIVE-COMMAND-DECK-v0.1.0.sha256
 49a97d14dd352f2708537bf64981f874a21fa02b86c3550066ff49d32e262580  glitchbyte-phantom-labs-master-hub/v0.3.0/glitchbyte-phantom-labs-master-hub-v0.3.0.zip
+6439e4cd2b6d275b189a18dfc41a262ddcc62dcd1aa4ffb01b67a25ac9906f78  hexbazaar-live-command-deck/v0.1.0/HEXBZ-LIVE-COMMAND-DECK-v0.1.0.zip
 946262cad583f4a22d82091a805da089b6ef68c16815316772f45fb51e87a4f7  phantom-spine-live-signal/v0.2.0/phantom-spine-live-signal-v0.2.0.zip
 a4f3c18e6f51eafbb1e8fdded31b97c3de809e9964c0126cf969a0b249f4f698  glitchbyte-phantom-labs-master-hub/v0.2.0/glitchbyte-phantom-labs-master-hub-v0.2.0.sha256
 e5b1ef241ab8e3058fae593ecb1ea4fe26d95cdfb9eca1a0e84c656a1025fac7  glitchbyte-phantom-labs-master-hub/v0.2.0/glitchbyte-phantom-labs-master-hub-v0.2.0.zip

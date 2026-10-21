@@ -29,6 +29,16 @@
       "slug": "glitchbyte-phantom-labs-master-hub",
       "tag": "master-hub-v0.3.0",
       "version": "v0.3.0"
+    },
+    {
+      "archive": "HEXBZ-LIVE-COMMAND-DECK-v0.1.0.zip",
+      "archive_sha256": "6439e4cd2b6d275b189a18dfc41a262ddcc62dcd1aa4ffb01b67a25ac9906f78",
+      "checksum": "HEXBZ-LIVE-COMMAND-DECK-v0.1.0.sha256",
+      "checksum_sha256": "34c328639a1388ab3b93a41469812ea4e1dc78b57517eb5cc453ca5f4af63a8f",
+      "repo": "Hellfire13666/hexbazaar-live-command-deck-2026",
+      "slug": "hexbazaar-live-command-deck",
+      "tag": "v0.1.0",
+      "version": "v0.1.0"
     }
   ],
   "schema_version": 1

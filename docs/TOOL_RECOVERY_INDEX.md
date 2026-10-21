@@ -10,6 +10,12 @@
 
 The public release ZIP (3,758,458 bytes, SHA-256 `946262cad583f4a22d82091a805da089b6ef68c16815316772f45fb51e87a4f7`) includes the owner's Rosie-and-spine artwork, Python live-source engine, tests, HTML pages, shortcuts, and README. This is **a verified installer ZIP backup** in addition to Headquarters source snapshots, not a claim that local desktop installations or private reports are backed up.
 
+## ✅ Master Hub v0.3.0 installer recovery
+
+[Master Hub v0.3.0 original GitHub release](https://github.com/Hellfire13666/glitchbyte-phantom-labs/releases/tag/master-hub-v0.3.0) · [verified independent Vault ZIP + checksum](../installers/glitchbyte-phantom-labs-master-hub/v0.3.0/) · [successful archive workflow](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39665211599) · [Vault SHA256SUMS](../installers/SHA256SUMS.txt).
+
+Verify the 4,419,234-byte ZIP SHA-256 `49a97d14dd352f2708537bf64981f874a21fa02b86c3550066ff49d32e262580` before extracting into a **new** versioned folder. This includes the approved Rosie PHANTOM SPINE artwork, permanent Hub switch, and real beginner recipes. Old Hub v0.2.0 and PHANTOM SPINE v0.2.0 files remain preserved.
+
 ## Installer recovery (official released packages)
 
 **✅ Master Hub v0.2.0 actual installer saved in Vault:** [Versioned ZIP and SHA file](../installers/glitchbyte-phantom-labs-master-hub/v0.2.0/) · [public release source](https://github.com/Hellfire13666/glitchbyte-phantom-labs/releases/tag/master-hub-v0.2.0) · [verified installer hash list](../installers/SHA256SUMS.txt) · [installer catalog](../installers/index.json). The [archiving job](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39611133094) successfully confirmed the file hashes and ZIP integrity. This is a separate *binary release installer backup*, in addition to the historical source snapshots indexed below.

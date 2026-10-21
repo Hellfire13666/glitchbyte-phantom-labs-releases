@@ -47,6 +47,10 @@ The [Installer Vault registry and recovery rules](docs/INSTALLER_VAULT.md) estab
 
 No private desktop screenshots, credentials, reports or uncommitted local installations were archived. The selected Rosie-and-glowing-spine image is part of the approved public release ZIP. Keep a separate trusted offline backup, too.
 
+## 🔐 Newest Master Hub: v0.3.0 is safely archived
+
+The [public Master Hub v0.3.0 release](https://github.com/Hellfire13666/glitchbyte-phantom-labs/releases/tag/master-hub-v0.3.0) and its **actual SHA-256-verified separate [Installer Vault backup](installers/glitchbyte-phantom-labs-master-hub/v0.3.0/)** are complete. The [successful archiving workflow](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39665211599) verified both the 4,419,234-byte ZIP and checksum and preserved earlier installer backups. It includes the approved Rosie + PHANTOM SPINE art and professional live recipes.
+
 ## 🚪 Phantom Backup HQ doors
 
 | Destination | Open |

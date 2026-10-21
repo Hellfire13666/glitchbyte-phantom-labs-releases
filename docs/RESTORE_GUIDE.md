@@ -4,6 +4,14 @@
 
 # 🔐 Phantom Backup HQ | Verified Recovery Guide
 
+## Recover a versioned installer (separate Installer Vault)
+
+[Browse the Installer Vault](../installers/) or open its [catalog](../installers/index.json). For the fully archived **GlitchByte Master Hub v0.2.0**, download its ZIP and `.sha256` from [the versioned folder](../installers/glitchbyte-phantom-labs-master-hub/v0.2.0/) and verify the ZIP using the expected `e5b1ef241ab8e3058fae593ecb1ea4fe26d95cdfb9eca1a0e84c656a1025fac7`. Run `unzip -tq` and extract to a new safe directory; never overwrite the user's active hub folder. The [Installer Vault workflow](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39611133094) verified the package when stored here.
+
+Only official reviewed public release ZIPs explicitly pinned in [the registry](INSTALLER_VAULT_REGISTRY.json) are included. No automatic backup of local machine installs or unpublished artwork happens.
+
+
+
 > **Backup status is only confirmed when `snapshots/latest.json`, the referenced ZIP files, and SHA-256 hashes exist and pass validation.** A workflow definition alone is not an archive.
 
 ## What the Vault protects

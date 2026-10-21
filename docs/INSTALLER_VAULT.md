@@ -12,13 +12,13 @@
 6. Publish a **one-square copy/paste beginner installer** and local desktop shortcut instructions in the tool's README; connect the tool to the Master Hub by a checked card/recipe link, and keep its source repository separate.
 7. Keep a second **offline** copy outside GitHub. GitHub in two repositories is useful redundancy, but not an independent off-device backup.
 
-## Master Hub v0.2.0 candidate
+## ✅ Master Hub v0.2.0 archived and verified
 
 Official release: [Master Hub v0.2.0](https://github.com/Hellfire13666/glitchbyte-phantom-labs/releases/tag/master-hub-v0.2.0).
 
 Pinned archive SHA-256: `e5b1ef241ab8e3058fae593ecb1ea4fe26d95cdfb9eca1a0e84c656a1025fac7`.
 
-The official ZIP and checksum are registered for approved mirroring. **Only describe the separate Vault copy as archived after the workflow has succeeded and its versioned bytes are present.**
+The official ZIP and checksum are **archived under [installers/glitchbyte-phantom-labs-master-hub/v0.2.0](../installers/glitchbyte-phantom-labs-master-hub/v0.2.0/)**. The [GitHub archiving workflow](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39611133094) passed the offline tests, download/hash verification, ZIP validation, and publish steps. The two actual files (ZIP 981,915 bytes and checksum 112 bytes) appear in the Vault's [installer hash manifest](../installers/SHA256SUMS.txt).
 
 The PHANTOM SPINE Visual Portal is currently a separate local candidate, not a publicly approved release. Do not add it here before its individual publication/privacy/rights checks.
 

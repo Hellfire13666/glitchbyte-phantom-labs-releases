@@ -19,6 +19,16 @@
       "slug": "phantom-spine-live-signal",
       "tag": "v0.2.0",
       "version": "v0.2.0"
+    },
+    {
+      "archive": "glitchbyte-phantom-labs-master-hub-v0.3.0.zip",
+      "archive_sha256": "49a97d14dd352f2708537bf64981f874a21fa02b86c3550066ff49d32e262580",
+      "checksum": "glitchbyte-phantom-labs-master-hub-v0.3.0.sha256",
+      "checksum_sha256": "0619cc406cc3de1beefb4e4f6d6a7207839970f48df33f06e7b7a7d0b3aa31ec",
+      "repo": "Hellfire13666/glitchbyte-phantom-labs",
+      "slug": "glitchbyte-phantom-labs-master-hub",
+      "tag": "master-hub-v0.3.0",
+      "version": "v0.3.0"
     }
   ],
   "schema_version": 1

@@ -16,6 +16,12 @@ The public release ZIP (3,758,458 bytes, SHA-256 `946262cad583f4a22d82091a805da0
 
 Verify the 4,419,234-byte ZIP SHA-256 `49a97d14dd352f2708537bf64981f874a21fa02b86c3550066ff49d32e262580` before extracting into a **new** versioned folder. This includes the approved Rosie PHANTOM SPINE artwork, permanent Hub switch, and real beginner recipes. Old Hub v0.2.0 and PHANTOM SPINE v0.2.0 files remain preserved.
 
+## ✅ HEXBAZAAR Live Command Deck v0.1.0 installer recovery
+
+[Public HEXBAZAAR Live Command Deck v0.1.0](https://github.com/Hellfire13666/hexbazaar-live-command-deck-2026/releases/tag/v0.1.0) · [verified archived ZIP and checksum](../installers/hexbazaar-live-command-deck/v0.1.0/) · [verified workflow #39674856072](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39674856072).
+
+Versioned ZIP SHA-256: `6439e4cd2b6d275b189a18dfc41a262ddcc62dcd1aa4ffb01b67a25ac9906f78` (5,822,079 bytes). The Deck is the separate Rosie-branded Start/Easy/Medium/Savage HTML/launcher companion; it requires the original owner's separate HEXBAZAAR v0.1.2-rc1 engine for genuine public research. No original tools or existing desktop shortcuts need replacing. Earlier archives remain protected.
+
 ## Installer recovery (official released packages)
 
 **✅ Master Hub v0.2.0 actual installer saved in Vault:** [Versioned ZIP and SHA file](../installers/glitchbyte-phantom-labs-master-hub/v0.2.0/) · [public release source](https://github.com/Hellfire13666/glitchbyte-phantom-labs/releases/tag/master-hub-v0.2.0) · [verified installer hash list](../installers/SHA256SUMS.txt) · [installer catalog](../installers/index.json). The [archiving job](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39611133094) successfully confirmed the file hashes and ZIP integrity. This is a separate *binary release installer backup*, in addition to the historical source snapshots indexed below.

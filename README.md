@@ -39,6 +39,14 @@ The [Installer Vault registry and recovery rules](docs/INSTALLER_VAULT.md) estab
 
 **Permanent rule:** every future publicly approved new tool/release receives its own versioned install package, one-square beginner installer, unique landing/recipe page in the Master Hub, and an independently verified Vault copy. **New local installs are not automatically uploaded**; only public release assets explicitly added to the registry are mirrored. Unpublished PHANTOM SPINE candidates and all private reports remain local.
 
+## 👻 PHANTOM SPINE v0.2.0 safely mirrored in the Installer Vault
+
+**Verified October 21, 2026:** The independent, approved [PHANTOM SPINE Live Signal v0.2.0 public release](https://github.com/Hellfire13666/phantom-spine-live-signal-2026/releases/tag/v0.2.0) is now physically mirrored as [a separate versioned Installer Vault ZIP and checksum](installers/phantom-spine-live-signal/v0.2.0/), alongside the existing Master Hub installer. The [passing archive run #39650838678](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39650838678) performed installer regression tests, fetched only the approved public assets, checked both SHA-256 hashes and ZIP integrity, and committed immutable versioned files.
+
+**Actual ZIP:** 3,758,458 bytes, SHA-256 `946262cad583f4a22d82091a805da089b6ef68c16815316772f45fb51e87a4f7`. The matching official `.sha256` file is stored next to it. Confirm both against [Installer Vault SHA256SUMS](installers/SHA256SUMS.txt) or the machine-readable [installer catalog](installers/index.json). Your original Master Hub backup is untouched.
+
+No private desktop screenshots, credentials, reports or uncommitted local installations were archived. The selected Rosie-and-glowing-spine image is part of the approved public release ZIP. Keep a separate trusted offline backup, too.
+
 ## 🚪 Phantom Backup HQ doors
 
 | Destination | Open |

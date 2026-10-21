@@ -4,6 +4,14 @@
 
 # 🔐 Phantom Backup HQ | Find Any Tool Backup
 
+## Installer recovery (official released packages)
+
+**✅ Master Hub v0.2.0 actual installer saved in Vault:** [Versioned ZIP and SHA file](../installers/glitchbyte-phantom-labs-master-hub/v0.2.0/) · [public release source](https://github.com/Hellfire13666/glitchbyte-phantom-labs/releases/tag/master-hub-v0.2.0) · [verified installer hash list](../installers/SHA256SUMS.txt) · [installer catalog](../installers/index.json). The [archiving job](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39611133094) successfully confirmed the file hashes and ZIP integrity. This is a separate *binary release installer backup*, in addition to the historical source snapshots indexed below.
+
+**Future tool installer backups:** [Installer Vault rules](INSTALLER_VAULT.md) require each approved public versioned release to be registered, archived and checked before describing it as saved. Unpublished PHANTOM SPINE portal ZIPs and local installs are not covered by this archive.
+
+
+
 **✅ Latest verified full Headquarters source backup:** [147-file ZIP at commit `4be41644437e`](../snapshots/2026-10-19/glitchbyte-phantom-labs-4be41644437e.zip) · [its per-file hash manifest](../snapshots/2026-10-19/glitchbyte-phantom-labs-4be41644437e.manifest.json) · [latest.json](../snapshots/latest.json). This includes the Oct 19 `scripts/triad_signal_2026.py` privacy fix, `scripts/phantom_easy_save.py` and `tools/subdominatrix.py`. The 24-tool historical index below intentionally stays pinned to the earlier `148ff3c454bf` version; use the newer verified ZIP for current source files. [Passing backup workflow #39329790920](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39329790920).
 
 The verified [October 19, 2026 Headquarters archive](../snapshots/2026-10-19/glitchbyte-phantom-labs-148ff3c454bf.zip) contains the 24 named tools below, **plus** tests, README pages, example files and the six artwork files that were committed by that source revision.

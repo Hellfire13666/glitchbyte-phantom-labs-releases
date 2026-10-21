@@ -1,2 +1,4 @@
+055eee08c6ec473ab14cd79f88a25c53b7f7a0b2da768a6b7c2653bb9be06e9d  phantom-spine-live-signal/v0.2.0/phantom-spine-live-signal-v0.2.0.sha256
+946262cad583f4a22d82091a805da089b6ef68c16815316772f45fb51e87a4f7  phantom-spine-live-signal/v0.2.0/phantom-spine-live-signal-v0.2.0.zip
 a4f3c18e6f51eafbb1e8fdded31b97c3de809e9964c0126cf969a0b249f4f698  glitchbyte-phantom-labs-master-hub/v0.2.0/glitchbyte-phantom-labs-master-hub-v0.2.0.sha256
 e5b1ef241ab8e3058fae593ecb1ea4fe26d95cdfb9eca1a0e84c656a1025fac7  glitchbyte-phantom-labs-master-hub/v0.2.0/glitchbyte-phantom-labs-master-hub-v0.2.0.zip

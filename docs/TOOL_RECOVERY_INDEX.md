@@ -4,6 +4,12 @@
 
 # 🔐 Phantom Backup HQ | Find Any Tool Backup
 
+## ✅ PHANTOM SPINE v0.2.0 real installer recovery
+
+[Download or inspect the separate archived PHANTOM SPINE v0.2.0 ZIP and checksum](../installers/phantom-spine-live-signal/v0.2.0/) · [Official GitHub Release](https://github.com/Hellfire13666/phantom-spine-live-signal-2026/releases/tag/v0.2.0) · [Verified archive run #39650838678](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39650838678) · [Installer Vault hash list](../installers/SHA256SUMS.txt).
+
+The public release ZIP (3,758,458 bytes, SHA-256 `946262cad583f4a22d82091a805da089b6ef68c16815316772f45fb51e87a4f7`) includes the owner's Rosie-and-spine artwork, Python live-source engine, tests, HTML pages, shortcuts, and README. This is **a verified installer ZIP backup** in addition to Headquarters source snapshots, not a claim that local desktop installations or private reports are backed up.
+
 ## Installer recovery (official released packages)
 
 **✅ Master Hub v0.2.0 actual installer saved in Vault:** [Versioned ZIP and SHA file](../installers/glitchbyte-phantom-labs-master-hub/v0.2.0/) · [public release source](https://github.com/Hellfire13666/glitchbyte-phantom-labs/releases/tag/master-hub-v0.2.0) · [verified installer hash list](../installers/SHA256SUMS.txt) · [installer catalog](../installers/index.json). The [archiving job](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39611133094) successfully confirmed the file hashes and ZIP integrity. This is a separate *binary release installer backup*, in addition to the historical source snapshots indexed below.

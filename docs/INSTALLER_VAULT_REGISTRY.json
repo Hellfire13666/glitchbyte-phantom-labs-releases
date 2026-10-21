@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "approved_public_releases": [
+    {
+      "slug": "glitchbyte-phantom-labs-master-hub",
+      "version": "v0.2.0",
+      "repo": "Hellfire13666/glitchbyte-phantom-labs",
+      "tag": "master-hub-v0.2.0",
+      "archive": "glitchbyte-phantom-labs-master-hub-v0.2.0.zip",
+      "checksum": "glitchbyte-phantom-labs-master-hub-v0.2.0.sha256",
+      "archive_sha256": "e5b1ef241ab8e3058fae593ecb1ea4fe26d95cdfb9eca1a0e84c656a1025fac7",
+      "checksum_sha256": "a4f3c18e6f51eafbb1e8fdded31b97c3de809e9964c0126cf969a0b249f4f698"
+    }
+  ]
+}

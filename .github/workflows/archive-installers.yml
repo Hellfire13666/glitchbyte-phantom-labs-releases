@@ -1,0 +1,57 @@
+name: Phantom Vault Approved Installer Archives
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "docs/INSTALLER_VAULT_REGISTRY.json"
+      - ".github/workflows/archive-installers.yml"
+      - ".github/scripts/archive_public_installers.py"
+      - ".github/scripts/test_installer_vault.py"
+  schedule:
+    - cron: "41 6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: phantom-vault-approved-installers
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    name: Verify and preserve approved public release ZIPs
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout Vault
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          ref: main
+          fetch-depth: 1
+
+      - name: Offline installer safety tests
+        run: python3 -B -m unittest discover -s .github/scripts -p 'test_installer_vault.py' -v
+
+      - name: Mirror allowlisted, published release installers
+        run: python3 -B .github/scripts/archive_public_installers.py
+
+      - name: Verify every archived release hash
+        run: |
+          cd installers
+          sha256sum --check SHA256SUMS.txt
+
+      - name: Publish immutable versioned installer archives
+        run: |
+          git config user.name "glitchbyte-vault-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add installers
+          if git diff --cached --quiet; then
+            echo "No new approved installers; verified existing copies."
+          else
+            git commit -m "vault: archive approved verified installer releases [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

@@ -31,6 +31,14 @@ Our [Build → Run → Publish → Vault standard](https://github.com/Hellfire13
 
 **🌹 New HQ-only Triad Signal companion:** [source](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/scripts/triad_signal_2026.py) · [verification and run recipes](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/integrations/TRIAD_SIGNAL_2026.md). CI passed, but this source is not yet in a versioned verified Backup HQ ZIP. The historical Triad Forge local ZIP and backup archives were not changed. First user-side tests showed Waybackurls worked and Amass/GAU timed out.
 
+## 🌹 New: Installer Vault for every approved public release
+
+The [Installer Vault registry and recovery rules](docs/INSTALLER_VAULT.md) establish a second, separate archive for **official, approved tool installation ZIPs and checksum files**, not just Git source snapshots. The [approved archiver workflow](.github/workflows/archive-installers.yml) verifies SHA-256 hashes, preserves each unique version without overwriting the previous one, and builds an [installer catalog](installers/index.json) and [installer checksums](installers/SHA256SUMS.txt) **when it has successfully run**.
+
+**First registered candidate:** the published [GlitchByte Master Hub v0.2.0 release](https://github.com/Hellfire13666/glitchbyte-phantom-labs/releases/tag/master-hub-v0.2.0). Its ZIP and checksum are registered with exact hashes. Confirm the archive is physically present under `installers/glitchbyte-phantom-labs-master-hub/v0.2.0/` before calling it backed up here.
+
+**Permanent rule:** every future publicly approved new tool/release receives its own versioned install package, one-square beginner installer, unique landing/recipe page in the Master Hub, and an independently verified Vault copy. **New local installs are not automatically uploaded**; only public release assets explicitly added to the registry are mirrored. Unpublished PHANTOM SPINE candidates and all private reports remain local.
+
 ## 🚪 Phantom Backup HQ doors
 
 | Destination | Open |

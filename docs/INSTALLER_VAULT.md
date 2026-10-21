@@ -12,6 +12,12 @@
 6. Publish a **one-square copy/paste beginner installer** and local desktop shortcut instructions in the tool's README; connect the tool to the Master Hub by a checked card/recipe link, and keep its source repository separate.
 7. Keep a second **offline** copy outside GitHub. GitHub in two repositories is useful redundancy, but not an independent off-device backup.
 
+## ✅ HEXBAZAAR Live Command Deck v0.1.0 archived and verified (October 21, 2026)
+
+[Official public GitHub Release](https://github.com/Hellfire13666/hexbazaar-live-command-deck-2026/releases/tag/v0.1.0) · [Independent archived HEXBAZAAR Deck ZIP + checksum](../installers/hexbazaar-live-command-deck/v0.1.0/) · [Successful archive workflow](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39674856072).
+
+Both immutable versioned installer files are physically present: `HEXBZ-LIVE-COMMAND-DECK-v0.1.0.zip` (**5,822,079 bytes**, SHA-256 `6439e4cd2b6d275b189a18dfc41a262ddcc62dcd1aa4ffb01b67a25ac9906f78`) and `HEXBZ-LIVE-COMMAND-DECK-v0.1.0.sha256` (SHA-256 `34c328639a1388ab3b93a41469812ea4e1dc78b57517eb5cc453ca5f4af63a8f`). Their pinned digests appear in [Vault SHA256SUMS](../installers/SHA256SUMS.txt) and [index.json](../installers/index.json). Archiver logs confirm offline installer safety tests, release mirroring, digest verification and publication passed. Deck does not bundle the separately installed HEXBAZAAR research engine. Prior Master Hub v0.2.0/v0.3.0 and PHANTOM SPINE v0.2.0 copies remain separate.
+
 ## ✅ Master Hub v0.3.0 archived and verified (October 21, 2026)
 
 The actual [GlitchByte Master Hub v0.3.0 public GitHub Release](https://github.com/Hellfire13666/glitchbyte-phantom-labs/releases/tag/master-hub-v0.3.0) is independently preserved in the [separate v0.3.0 Installer Vault folder](../installers/glitchbyte-phantom-labs-master-hub/v0.3.0/). Its ZIP (**4,419,234 bytes**, SHA-256 `49a97d14dd352f2708537bf64981f874a21fa02b86c3550066ff49d32e262580`) and checksum file (SHA-256 `0619cc406cc3de1beefb4e4f6d6a7207839970f48df33f06e7b7a7d0b3aa31ec`) appear in the [Vault SHA256SUMS](../installers/SHA256SUMS.txt) and [machine-readable catalog](../installers/index.json).

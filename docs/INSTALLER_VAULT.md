@@ -20,7 +20,15 @@ Pinned archive SHA-256: `e5b1ef241ab8e3058fae593ecb1ea4fe26d95cdfb9eca1a0e84c656
 
 The official ZIP and checksum are **archived under [installers/glitchbyte-phantom-labs-master-hub/v0.2.0](../installers/glitchbyte-phantom-labs-master-hub/v0.2.0/)**. The [GitHub archiving workflow](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39611133094) passed the offline tests, download/hash verification, ZIP validation, and publish steps. The two actual files (ZIP 981,915 bytes and checksum 112 bytes) appear in the Vault's [installer hash manifest](../installers/SHA256SUMS.txt).
 
-The PHANTOM SPINE Visual Portal is currently a separate local candidate, not a publicly approved release. Do not add it here before its individual publication/privacy/rights checks.
+The **earlier PHANTOM SPINE Visual Portal** is a different, locally distributed historical candidate and was not archived by this release. The fully published **PHANTOM SPINE Live Signal v0.2.0**, including its exact approved Rosie artwork, has its own independently verified archived ZIP below.
+
+## ✅ PHANTOM SPINE Live Signal v0.2.0 archived and verified
+
+Official public GitHub release: [PHANTOM SPINE v0.2.0](https://github.com/Hellfire13666/phantom-spine-live-signal-2026/releases/tag/v0.2.0). This includes the owner-approved Rosie-and-spine public artwork, real DNS public-source intelligence interface, separately installed HEXBAZAAR adapter, and RIFTSEAL SHA-256 evidence bridge.
+
+The exact ZIP and `.sha256` assets are saved separately in [the PHANTOM SPINE v0.2.0 Installer Vault folder](../installers/phantom-spine-live-signal/v0.2.0/). **ZIP size:** 3,758,458 bytes; **ZIP SHA-256:** `946262cad583f4a22d82091a805da089b6ef68c16815316772f45fb51e87a4f7`; **checksum-file SHA-256:** `055eee08c6ec473ab14cd79f88a25c53b7f7a0b2da768a6b7c2653bb9be06e9d`. The [successful approved installer archiving run](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/actions/runs/39650838678) verified both files' hashes and ZIP contents before publication; [SHA256SUMS.txt](../installers/SHA256SUMS.txt) and [index.json](../installers/index.json) list the backup.
+
+The separately approved **old PHANTOM SPINE Visual Portal candidate** is not this v0.2.0 official release. Public publication and Vault mirroring were completed only for the exact version/asset pair listed here. Older backups are retained.
 
 ### Safe restore
 

@@ -1,0 +1,1013 @@
+{
+  "archive_path": "snapshots/2026-10-28/glitchbyte-phantom-labs-6de78df11d41.zip",
+  "archive_sha256": "af22381a07ede4a1aecc32d84f5cb1e96cd14f7616281a16831c139db718ad43",
+  "file_count": 200,
+  "format": "full tracked-file snapshot",
+  "generated_utc": "2026-10-28T11:26:54.455549+00:00",
+  "manifest_path": "snapshots/2026-10-28/glitchbyte-phantom-labs-6de78df11d41.manifest.json",
+  "repository": "Hellfire13666/glitchbyte-phantom-labs",
+  "source_commit": "6de78df11d41a0fdff4986111dfe2feffc8bf761",
+  "source_files": [
+    {
+      "path": ".github/workflows/privacy-publication-guard.yml",
+      "sha256": "9c9e7188ac7183dbcb724d393bad05edf6621ff300d6f6d1bddb141507830708",
+      "size": 497
+    },
+    {
+      "path": ".github/workflows/public-clone-verification.yml",
+      "sha256": "6028dd36a795b1520f5368ea0db0638b678e55cac4b6511d61072c0fc1326d95",
+      "size": 3175
+    },
+    {
+      "path": ".github/workflows/python-checks.yml",
+      "sha256": "ea9a935b984551e265b829c025627b91d3676c4ecb45ff3d7d10582bb0c5839f",
+      "size": 398
+    },
+    {
+      "path": ".github/workflows/screamframe-offline-checks.yml",
+      "sha256": "2d4141f385c808bce46138081aca4f35e39d531173772360bbe26fab8041882a",
+      "size": 1744
+    },
+    {
+      "path": ".github/workflows/tool-cover-linker.yml",
+      "sha256": "98a2ba50ed3f2b9324f3cc8012205e45d502aa91427f9a61975bc1a63d243a3b",
+      "size": 1206
+    },
+    {
+      "path": ".github/workflows/voidlantern-go-checks.yml",
+      "sha256": "31983bdadfc43aa134dbe1f53a4c8d302b9c50ff9f853610cc62d1376061f26d",
+      "size": 622
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "2e03d5854044682f33b561f0e70ae9c055d64916658ac1837aad8ce38c3c13cd",
+      "size": 133
+    },
+    {
+      "path": "LICENSE-NOTICE.md",
+      "sha256": "c3dccfc229112b8d96db97af41514f5f2d8e213d44d4371b9620b56733e2fb2c",
+      "size": 2239
+    },
+    {
+      "path": "README.md",
+      "sha256": "718f0c125167fa9816b591945e876924807e32bad1f85a18bafa471578b07bcb",
+      "size": 28995
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "82e37786bf6677a3bc9e1cf489c4d18f39fbdf8d84614ccc71b821421a55aaa3",
+      "size": 3194
+    },
+    {
+      "path": "artwork/Screenshot_2026-10-17_23-22-21.png",
+      "sha256": "4b60b78084b0e10bcf0dbfe79d363e9b7254fbf01d30106d66d2e67a3e864907",
+      "size": 262397
+    },
+    {
+      "path": "artwork/labface2.png",
+      "sha256": "baf74957b8f6dbd5df8aa074414568aa33cf8fb8c202d6ae1fbf9acd79cdec31",
+      "size": 2430892
+    },
+    {
+      "path": "artwork/labs4.png",
+      "sha256": "0333d6cd7e21b26c2817b5807c720fa40eb89cca579a786a1363859f70970f9f",
+      "size": 2070923
+    },
+    {
+      "path": "artwork/rosie_ip_shadow_art.png",
+      "sha256": "ce159bbf498189211bb2123341f65c46ecfca7f14ba3b67592226c3ce59e82d8",
+      "size": 2469914
+    },
+    {
+      "path": "artwork/subdom.png",
+      "sha256": "a0db6c7d52b93d16a1f1829df9fb3e3ece56703ce0c2f4300357a1a750f93c2d",
+      "size": 2426391
+    },
+    {
+      "path": "artwork/tool-covers/03_domain_intel.png",
+      "sha256": "aba045a8a8f33917d2b3d3398fc8be6b6a70e163a98652691d89781a930a8b48",
+      "size": 2856233
+    },
+    {
+      "path": "artwork/tool-covers/04_domain_phantom.png",
+      "sha256": "553092682e59d6fde20a2dc27048572910fa89706774fd06af08a82121ad1050",
+      "size": 2901694
+    },
+    {
+      "path": "artwork/tool-covers/05_neon_rose_phantom_3.png",
+      "sha256": "b6fdd03e2bcc1e8eb627936486169f9472db31c6b893fa09aca0c06f1172bc46",
+      "size": 2343322
+    },
+    {
+      "path": "artwork/tool-covers/06_ip_specter.png",
+      "sha256": "d9d03fd1a623af76edbd686cf988193428bf1a0a0638297569c50563cae19a29",
+      "size": 255418
+    },
+    {
+      "path": "artwork/tool-covers/08_voidlantern.png",
+      "sha256": "9ecbc4250927dfc0eaf6515ebf21ba39cbe98aca0d028da68227a863b439d416",
+      "size": 2247958
+    },
+    {
+      "path": "artwork/tool-covers/09_username_intel.png",
+      "sha256": "9d99e7d184a4ed6d8c2fd89e0a965b8b1005684507f557abab6d6fab8bad99cb",
+      "size": 973591
+    },
+    {
+      "path": "artwork/tool-covers/10_velvetecho.png",
+      "sha256": "3771027584ee6f1ab305a394858d28c9a7a332693027f94cd05ebd62aa1ad6b4",
+      "size": 247305
+    },
+    {
+      "path": "artwork/tool-covers/11_rose_crawler.png",
+      "sha256": "af61cd418beeaf2c11c7804ddcb0a5d8a06c76fd02ee545aa6210b9b139ef06a",
+      "size": 2961983
+    },
+    {
+      "path": "artwork/tool-covers/12_x_intel_phantom.png",
+      "sha256": "9ec3c393353f90c5183ed154ee1a4cd5e5f7f44b6c283310c1c8d7868ebba365",
+      "size": 2377116
+    },
+    {
+      "path": "artwork/tool-covers/13_x_shadow_no_api.png",
+      "sha256": "88dd7aff0dee169d36d48633bb3128f36c948e95cd3d954289d0e2022429cbd8",
+      "size": 2561966
+    },
+    {
+      "path": "artwork/tool-covers/14_hackgirl_intel.png",
+      "sha256": "91725c906a453d014b4fe54e28aff1eee7449b7d5e3ca54cb031b416d15e1198",
+      "size": 2167167
+    },
+    {
+      "path": "artwork/tool-covers/15_screamframe.png",
+      "sha256": "389958944e73e9caebaac16c59c75e22bd8357a9a7dc6e2d86b6970aa2754e97",
+      "size": 262618
+    },
+    {
+      "path": "artwork/tool-covers/16_ghostmark.png",
+      "sha256": "a0601f28fe5e77fa63593193b8ccbab2ebb4baf0fd0cddefaf03f494d714cb63",
+      "size": 234525
+    },
+    {
+      "path": "artwork/tool-covers/17_log_constellation.png",
+      "sha256": "6fd895beee3a3cdb13afea31d60dd88baac0c295db560bc598f2f500c2effa5b",
+      "size": 3028042
+    },
+    {
+      "path": "artwork/tool-covers/18_signal_garden.png",
+      "sha256": "e9adf402f4a122c2398ce0702bf03d65658ff87703bf222e0b3ffef3fe03550c",
+      "size": 3010626
+    },
+    {
+      "path": "artwork/tool-covers/19_hexwake.png",
+      "sha256": "69d937ff83e50fcd57d7ca797abf4cad650b6862cb1f96b4cdc5c30955dae69c",
+      "size": 2275235
+    },
+    {
+      "path": "artwork/tool-covers/20_phantom_cipherbox.png",
+      "sha256": "db24872de14fc750cd0213500ef15411101a5380445494d84ab7860e61e57261",
+      "size": 3090605
+    },
+    {
+      "path": "artwork/tool-covers/21_catch_me_in_the_chaos.png",
+      "sha256": "eeb795cc252f4f9ce97ef80be28f6f14470d5aa48932d1c0d7a4f820a5837a88",
+      "size": 1596018
+    },
+    {
+      "path": "artwork/tool-covers/22_dark_desire.png",
+      "sha256": "dfc62ec65be475ea177744a7820484df16748a9c489db48e7d396b6bab801b25",
+      "size": 1600371
+    },
+    {
+      "path": "artwork/tool-covers/23_ghost_in_my_heart.png",
+      "sha256": "92c278596d23105510ddb03e7e03d64dd4167f3b0005ca51d61d3e52f95a1434",
+      "size": 2613940
+    },
+    {
+      "path": "artwork/tool-covers/24_find_me_if_you_love_me.png",
+      "sha256": "2c6964cb5fa26fb241359632c8c9062b8b7f895e2a9b2cd186e7da8315ba21d0",
+      "size": 2403338
+    },
+    {
+      "path": "artwork/tool-covers/README.md",
+      "sha256": "68e9a0f05f2ad814da3858e992e7a66493fbafac768312977929b2c611ba9754",
+      "size": 2179
+    },
+    {
+      "path": "artwork/tool-covers/last_two_phantom_covers_upload/SHA256_MANIFEST.json",
+      "sha256": "e95941be943563740c14b770c03fe94fe0fbe1916fb021dd0d92faf6727fbf99",
+      "size": 589
+    },
+    {
+      "path": "artwork/tool-covers/last_two_phantom_covers_upload/UPLOAD_INSTRUCTIONS.txt",
+      "sha256": "062a029524d0e761f7e18d57e3a282443bd1b017cf7c43ddb8c5abb3a0076e1e",
+      "size": 639
+    },
+    {
+      "path": "artwork/vaultlab.png",
+      "sha256": "0787c24dcaac6b71babb6ec4c62a871bd818a11dd25e473a160d4462c3439e59",
+      "size": 2475775
+    },
+    {
+      "path": "docs/ARTWORK_UPLOAD_CLEANUP.md",
+      "sha256": "472cbe3828d9a27745b50b04ba6d881c0eaf8a79b6131e3d19c3a86c7b852d02",
+      "size": 5710
+    },
+    {
+      "path": "docs/BEGINNER_RUNTIME_RECIPES.md",
+      "sha256": "987e4daa133a27fe33d2f32635340cb2368dbb3e3410633f90c3ebd2d6b6df89",
+      "size": 13376
+    },
+    {
+      "path": "docs/BUILD_PUBLICATION_STANDARD.md",
+      "sha256": "38f35669ca9b46a7535afaf0741cca650540e3ae3980e4315a115bb9e166cc43",
+      "size": 13654
+    },
+    {
+      "path": "docs/CLEAN_BUILD_VERIFICATION.md",
+      "sha256": "bf13be64644d07eba03346c1d7d7838717d741d9cbfdfd4f5aced0f1b791baea",
+      "size": 4162
+    },
+    {
+      "path": "docs/COPY_PASTE_OPEN.md",
+      "sha256": "af5a0eaee20729a82682a09139464d768d1cbc41db5fc7f36119bb971f64312c",
+      "size": 10776
+    },
+    {
+      "path": "docs/CREATIVE_UTILITIES.md",
+      "sha256": "a3c664f16d0c2461bcb2f7293ea441cd4b2a96cfc9ac8c385583bf7ea6eb8a29",
+      "size": 2442
+    },
+    {
+      "path": "docs/CULTIVATION_ROOM.md",
+      "sha256": "f96e35c227f88647ae371a2733d7227a78f6bd073d2c39c2246d0a3c64589c4f",
+      "size": 23841
+    },
+    {
+      "path": "docs/EASY_SAVE_ALL_TOOLS.md",
+      "sha256": "bb2bbadcf0f0103930c467e46b0a248a764507db03cc423c88569eb967fb4dfb",
+      "size": 7975
+    },
+    {
+      "path": "docs/ECOSYSTEM.md",
+      "sha256": "f45719ed247184a5fdddeee7b53fc71093c97b76d349132cbccf55b196560450",
+      "size": 10494
+    },
+    {
+      "path": "docs/HEXBZ_LIVE_COMMAND_DECK_V010_CHECKPOINT.md",
+      "sha256": "15e56f02eacc05b87dd66532047a6d9c5eda3224a03639bcfd9b5e8c685a2f18",
+      "size": 7725
+    },
+    {
+      "path": "docs/INVENTORY.md",
+      "sha256": "a53914794ba52524a99727050469c428ffed5e5bdc563d583869566ee1901b04",
+      "size": 1874
+    },
+    {
+      "path": "docs/LIVE_OSINT_REAL_OUTPUT_STANDARD.md",
+      "sha256": "15b8853ad671b9eff5096349180cdf49add891400d7a5ad778fa83347be85619",
+      "size": 5450
+    },
+    {
+      "path": "docs/MASTER_HUB_PUBLIC_INSTALL.md",
+      "sha256": "ce551c053e71c66be72e396cb67fdfa295dc1cf3b7027b200b47e1017cf51f9f",
+      "size": 9965
+    },
+    {
+      "path": "docs/MASTER_HUB_PUBLIC_RELEASE.md",
+      "sha256": "6bea275496c77c9f18ae44fb978e5892553e13d549ead1845498c66dfc8f162b",
+      "size": 5179
+    },
+    {
+      "path": "docs/MASTER_HUB_TOOL_REGISTRATION.md",
+      "sha256": "bc5e893c84bd1383305006481904ed40c220b68194a0abd1351d76938c331ab6",
+      "size": 7030
+    },
+    {
+      "path": "docs/MASTER_HUB_V030_RELEASE_CHECKPOINT.md",
+      "sha256": "6d63d8916095ac50069121ba02a9731827671d058e3b8e0a8f52cd77f5892c6c",
+      "size": 5151
+    },
+    {
+      "path": "docs/OFFLINE_VERIFICATION.md",
+      "sha256": "8c4b3d5220b1955bc4c8f8a34cdf39f94a8a5ccd98604bd991b5bac3f4114a2e",
+      "size": 4077
+    },
+    {
+      "path": "docs/PHANTOM_LABS_MANDATORY_BUILD_CHARTER.md",
+      "sha256": "f7dd808a6c701e85b9f244d9e8fa31c9f65e904773b494a0e27678f16478c956",
+      "size": 15978
+    },
+    {
+      "path": "docs/PHANTOM_SPINE_ADAPTER_STATUS.md",
+      "sha256": "bce7a24086c6a403527d30a2b48ee6c27df7c48af43175ab128a081919733aed",
+      "size": 5998
+    },
+    {
+      "path": "docs/PHANTOM_SPINE_RC2_DEBIAN_FIELD_TEST.md",
+      "sha256": "27b153436b2ace3496a8b547d7a0138038b1ab9eef14e56b645bce02e0f48b10",
+      "size": 6678
+    },
+    {
+      "path": "docs/PHANTOM_SPINE_V020_PUBLICATION_CHECKPOINT.md",
+      "sha256": "7e0509d557bed164796f0a9f9cf0fb6db1a2bd487a05eac55d70c3163f86e5a5",
+      "size": 6738
+    },
+    {
+      "path": "docs/PHASE25_RELIABILITY.md",
+      "sha256": "2ad6025c21de2ccc607f4f7b74934864e58a7ddee2b6db9e194fc1754705e950",
+      "size": 3435
+    },
+    {
+      "path": "docs/PUBLIC_CLONE_VERIFICATION.md",
+      "sha256": "5d1bbfe9b8c217fd9be6b0484a9095e6dceef69180ba4d98d7cf9f79cbcf3121",
+      "size": 3353
+    },
+    {
+      "path": "docs/PUBLIC_PRIVACY_RELEASE_STANDARD.md",
+      "sha256": "53cae996e9df98d47f362367ca9bdecbe31976541045340453a82ad446c06b2e",
+      "size": 1516
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "sha256": "8b66ea254215eda0becd12bf332064c8faebf2f93b52bfd2b6c4f7d77b5a6db1",
+      "size": 1061
+    },
+    {
+      "path": "docs/RECIPE_AUDIT.md",
+      "sha256": "c93a0363283e2aa56a13026f9b1fc488a1c13c5dca71fb92ff76ff559d9673fa",
+      "size": 4759
+    },
+    {
+      "path": "docs/RELEASE_CHECKLIST.md",
+      "sha256": "d9018e80f834763d4839a0cdd55d221930ae7fa36d8ce85aa802e82dec043a87",
+      "size": 21531
+    },
+    {
+      "path": "docs/RELEASE_READINESS_REVIEW.md",
+      "sha256": "294727a03f28783f2ccd48e60798e78790956aaae00d2dce416d6a0d5b0c2ab4",
+      "size": 4390
+    },
+    {
+      "path": "docs/ROSIERIOT_OVERDRIVE_LAB.md",
+      "sha256": "1a734d3f15f4bc3262b517e3d06af5ef839edcd2378fc39a0c458187fc54e77c",
+      "size": 4844
+    },
+    {
+      "path": "docs/ROSIE_VISUAL_STANDARD.md",
+      "sha256": "bda16363680c3951f0992e1b6936728aa70cde0d3d59bc84ee198e3b93ccae93",
+      "size": 2130
+    },
+    {
+      "path": "docs/SHA256_MANIFEST.json",
+      "sha256": "38d82412583a6f0c5028f6deadeed8c503d14d3effbf17cd8e5d977bf929c989",
+      "size": 2785
+    },
+    {
+      "path": "docs/TOOL_COVER_MAP.json",
+      "sha256": "944e48fe87bc9f7c77195b5334a2080aa30707d00787358cc9d6843531a8df02",
+      "size": 5857
+    },
+    {
+      "path": "docs/TOOL_STARTER_GUIDE.md",
+      "sha256": "1c70a1b8b154cbe37e2c6f6558c5af20008db6bc7a95844e375114de203d2481",
+      "size": 8519
+    },
+    {
+      "path": "docs/TOOL_VAULT.md",
+      "sha256": "081ed9e698f14c74e58aca8925232eb4dff896e00937200eb4fdd83e3b13aa55",
+      "size": 34328
+    },
+    {
+      "path": "docs/WORKSHOP_HANDOFF.md",
+      "sha256": "968d750c34b1416b8ea6a394b0deae9c83258ce133867f566cec6cb1836dfa28",
+      "size": 6166
+    },
+    {
+      "path": "docs/art/riftseal_savage_favorite.jpg",
+      "sha256": "94971f84acee84d71fbbccabf814bc3a913120ce90b8d1db037aa8bfcf154735",
+      "size": 420624
+    },
+    {
+      "path": "docs/art/rootsignal_savage_favorite.jpg",
+      "sha256": "03039e79caf2233a8511956c1b0334fb57306d5ef379cd0f087be0d945d70052",
+      "size": 387024
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.1/01-FACEBOOK-SHARING-DEBUGGER/assets/APPROVED-FACEBOOK-SHARING-DEBUGGER.png",
+      "sha256": "a557ec5f762dd5c5e4b9832763965373865d1a9e0499de17a8974e267ac04650",
+      "size": 2547352
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.1/01-FACEBOOK-SHARING-DEBUGGER/index.html",
+      "sha256": "4cb710afb7de6e2c0c145e183b3de3b36db915e567fb9127da663cddd2c4813c",
+      "size": 9537
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.1/02-ART-VAULT-CONVERTER/assets/ART-VAULT-CONVERTER-OFFICIAL.png",
+      "sha256": "380bb32a38e1dab900e0835c51c340af4617bb149786d804e2c32792d58a409c",
+      "size": 368760
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.1/02-ART-VAULT-CONVERTER/index.html",
+      "sha256": "c7e009fb01b17f2bde68bb72d1e574ae7d74fa275ba3dc1ebecfe5c1e7cc9acd",
+      "size": 11318
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.1/PRINTABLE/01-FACEBOOK-SHARING-DEBUGGER-POSTER.png",
+      "sha256": "a1eb6e9bfe43b70b21c8fd98977cb269139863863d14c2129edb902928559c7e",
+      "size": 2537022
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.1/PRINTABLE/02-ART-VAULT-CONVERTER-POSTER.png",
+      "sha256": "1c4bde2f33351737f946fd95c84c61fe549612d3f68ae65d48054622c1379765",
+      "size": 697853
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.1/README.md",
+      "sha256": "d13beebe311f2580f7ff527ea913cf9f5035a3aa15f5f022e4b484901e34f891",
+      "size": 2267
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.1/README.txt",
+      "sha256": "f70f02227d78c4550e6f2d354472d1dd3ee819fc19b7958c095c545d530ad205",
+      "size": 850
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.1/START-HERE.html",
+      "sha256": "438f1d38def6e41ed4be51a1b067a7756a0e5a258da57391894ccfbb90315d6f",
+      "size": 6672
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.3/01-FACEBOOK-SHARING-DEBUGGER/assets/APPROVED-FACEBOOK-SHARING-DEBUGGER.png",
+      "sha256": "a557ec5f762dd5c5e4b9832763965373865d1a9e0499de17a8974e267ac04650",
+      "size": 2547352
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.3/01-FACEBOOK-SHARING-DEBUGGER/index.html",
+      "sha256": "4cb710afb7de6e2c0c145e183b3de3b36db915e567fb9127da663cddd2c4813c",
+      "size": 9537
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.3/02-ART-VAULT-CONVERTER/assets/ART-VAULT-CONVERTER-ROSIE-NEON-v2.png",
+      "sha256": "71f22910af269fde6dc184a3e995908ee41bf3d3afccba839c06d320ff7c84e5",
+      "size": 3393851
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.3/02-ART-VAULT-CONVERTER/index.html",
+      "sha256": "606ceb3e9943ca67059161d6820416dd0de9f8ef1465094c24df8433aca075fa",
+      "size": 12781
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.3/PRINTABLE/01-FACEBOOK-SHARING-DEBUGGER-POSTER.png",
+      "sha256": "a1eb6e9bfe43b70b21c8fd98977cb269139863863d14c2129edb902928559c7e",
+      "size": 2537022
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.3/PRINTABLE/02-ART-VAULT-CONVERTER-POSTER.png",
+      "sha256": "71f22910af269fde6dc184a3e995908ee41bf3d3afccba839c06d320ff7c84e5",
+      "size": 3393851
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.3/README.md",
+      "sha256": "f6afd2492c63d49e6e7491ff997f8aaa7147f8c1ca51bbbfda5131a1ed2e4adf",
+      "size": 3559
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.3/README.txt",
+      "sha256": "73d3f9222d1c32e167a3f86d33156cd407473a6b522dde28b2a87fe9bf82c7bf",
+      "size": 368
+    },
+    {
+      "path": "docs/creative-utilities-showcase-v1.0.3/START-HERE.html",
+      "sha256": "ed3b8e4fa5aedb9f140b3fef2b267737c3dbdcef1bfced871356f19a4a8d0376",
+      "size": 6678
+    },
+    {
+      "path": "docs/integrations/FINDOMAIN_LIVE_CHECK.md",
+      "sha256": "9e05342129b5863166fa844e4f411fefb908a50a78faa44a9ca98822584c2972",
+      "size": 6478
+    },
+    {
+      "path": "docs/integrations/TRIAD_SIGNAL_2026.md",
+      "sha256": "462b9af7853c8916f0293d48a2441b9bfdbd2514a8673ad44bc68371e230d8be",
+      "size": 10502
+    },
+    {
+      "path": "docs/repair-shop/NODE22_MXHX_SHED.md",
+      "sha256": "c7d1771989c2b9cd3b51b00858a451fc34ea5b7a5906558f13c6858979b0f3ba",
+      "size": 5018
+    },
+    {
+      "path": "docs/repair-shop/README.md",
+      "sha256": "9498c2ab3eb0238be33498d345c492a12242562941913e18185e5083cb6a483a",
+      "size": 1600
+    },
+    {
+      "path": "docs/repair-shop/node22-repair-logo.svg",
+      "sha256": "205e884538f01f84352845917f1d3521d4ef9182c9a8032282daf8385fc40a43",
+      "size": 3099
+    },
+    {
+      "path": "docs/tool-showcases/ART_VAULT_NEW_ONLY.md",
+      "sha256": "99c3d9031bb88c28740c5dedfccb454e8ce2be638ff5239985d6d86aace92428",
+      "size": 2300
+    },
+    {
+      "path": "docs/tool-showcases/ART_VAULT_OPTIMIZER.md",
+      "sha256": "be5d9909ba0e5a001e32e567f5ea1dd851fc1a32e359e9d398cc1f1979086bdc",
+      "size": 2354
+    },
+    {
+      "path": "docs/tool-showcases/CATCH_ME_IN_THE_CHAOS.md",
+      "sha256": "0d902ed2833ebea42ba080cc3bf7e1fbaa224e1435f41d9ae5643bc27e353ceb",
+      "size": 8401
+    },
+    {
+      "path": "docs/tool-showcases/DARK_DESIRE.md",
+      "sha256": "12ae8641b687c093f8ea907cd591b27bfc734c88a5f30e8cf9e74139a55e50a4",
+      "size": 8171
+    },
+    {
+      "path": "docs/tool-showcases/DOMAIN_INTEL.md",
+      "sha256": "98172e2ff9308a52f1f6a5f516006703bf01261ea68ad33a7dff35a2060a8686",
+      "size": 9347
+    },
+    {
+      "path": "docs/tool-showcases/DOMAIN_PHANTOM.md",
+      "sha256": "0cd9554c319ca5d1479e8a5b1fb765d706743c0f801326bbebb975804f27e355",
+      "size": 8754
+    },
+    {
+      "path": "docs/tool-showcases/FIND_ME_IF_YOU_LOVE_ME.md",
+      "sha256": "79278c3f4a33c74ea13701fcfccccada6b18900aede652710ee3338f488c2c4f",
+      "size": 8356
+    },
+    {
+      "path": "docs/tool-showcases/GHOSTMARK.md",
+      "sha256": "b831bd0f445072493900e194dba9aa1038612842f57c714e504ef902660cc9a0",
+      "size": 8973
+    },
+    {
+      "path": "docs/tool-showcases/GHOST_IN_MY_HEART.md",
+      "sha256": "766837f9f26abc84122f4a6b0d62c2021c7fb375aae14dca217251e7b75fc8d2",
+      "size": 8549
+    },
+    {
+      "path": "docs/tool-showcases/HACKGIRL_INTEL.md",
+      "sha256": "1735ab59e9e16f40f3a25e620758684161bff9faa79f93f8e12422a9c83c5a0f",
+      "size": 10177
+    },
+    {
+      "path": "docs/tool-showcases/HEXWAKE.md",
+      "sha256": "ade6d208e1224ee2039471ba684745bfa2a13bf373d31da2478634f17bb81983",
+      "size": 7454
+    },
+    {
+      "path": "docs/tool-showcases/HEXWRAITH_PRIVACY_EDITION_RC1.md",
+      "sha256": "9fa69d77d38154d2b59555e2059dcc8a326e35c256a7957e1164a3de05623244",
+      "size": 6805
+    },
+    {
+      "path": "docs/tool-showcases/HEXWRAITH_PRIVACY_EDITION_RC2.md",
+      "sha256": "8f464e8c7164d82a16bfd4ea96b1730e9658122ba9c05028f91334abf19896b5",
+      "size": 10961
+    },
+    {
+      "path": "docs/tool-showcases/IP_SHADOW_SCRAPER.md",
+      "sha256": "a4b43c17a6ca1098ad6905c58a810ae5431404f5ff92c0045a0484154bed2e59",
+      "size": 8379
+    },
+    {
+      "path": "docs/tool-showcases/IP_SPECTER.md",
+      "sha256": "f7d9c8cf75ca95a7f013f00a36a27a0224a6efcd89182e81c4c0b2d66c6c8741",
+      "size": 8168
+    },
+    {
+      "path": "docs/tool-showcases/LOG_CONSTELLATION.md",
+      "sha256": "c71e28198d5093700b2333ee5759e33bd4502ce4c03963258b4d995f8db9c42c",
+      "size": 8385
+    },
+    {
+      "path": "docs/tool-showcases/NEON_ROSE_PHANTOM_3.md",
+      "sha256": "c6d0e79f19c8d6987b8edfbb1dce851932697a028887d7e92197d776d0a1d757",
+      "size": 8979
+    },
+    {
+      "path": "docs/tool-showcases/PHANTOM_CIPHERBOX.md",
+      "sha256": "cf5f8001999bd01cd7ad2a3f11a207d634b4ac636ccb58bdd6d28276149ce735",
+      "size": 8794
+    },
+    {
+      "path": "docs/tool-showcases/PHONETHORN.md",
+      "sha256": "73ac752ce587a1f0a5e29727c43f85a00aa50ab100d1d3b2c8c9d2f3b05e0da3",
+      "size": 2721
+    },
+    {
+      "path": "docs/tool-showcases/RIFTSEAL.md",
+      "sha256": "15291dbea2eb31e990691402a56924c93929289934602e4a747d77513193789e",
+      "size": 6069
+    },
+    {
+      "path": "docs/tool-showcases/ROOTSIGNAL.md",
+      "sha256": "76518677ebd259dd5ec1b74b8757963f8c5ecf59a090f9ec2e1ea07f5db411f8",
+      "size": 6871
+    },
+    {
+      "path": "docs/tool-showcases/ROSE_CRAWLER.md",
+      "sha256": "191c8cfdf029898cdd86749b987d009465989db24e77376d5248212ec811c671",
+      "size": 8994
+    },
+    {
+      "path": "docs/tool-showcases/ROSIE_PHANTOM_SCAN_V2.md",
+      "sha256": "7f687785518ff8e4374ce791c6f4cc0da07d0e7aae2301184ec60301fe57e18a",
+      "size": 9360
+    },
+    {
+      "path": "docs/tool-showcases/SCREAMFRAME.md",
+      "sha256": "4fa3337a64d13d3a9cc50b4bb7376f76bc642ab510f0721d14907f5ff89af174",
+      "size": 6324
+    },
+    {
+      "path": "docs/tool-showcases/SHARE_CARD_DOCTOR.md",
+      "sha256": "113b13059dd29b6ce8891c25a1ba45625cd8fe8cc3f2f3ebf469741257d2f837",
+      "size": 2254
+    },
+    {
+      "path": "docs/tool-showcases/SHOWCASE_TEMPLATE.md",
+      "sha256": "13cfd93e378955ee09590855ea4aacdb97f3344f2d0a57ffc4d097958752f1fa",
+      "size": 3856
+    },
+    {
+      "path": "docs/tool-showcases/SIGNAL_GARDEN.md",
+      "sha256": "b9329290f61ad7cdab504bcbecbc058b9d66cdeafa9a351d649d546e01332168",
+      "size": 8271
+    },
+    {
+      "path": "docs/tool-showcases/SUBDOMINATRIX.md",
+      "sha256": "746135f749cedfe786fdbda5f3ec866ded8a1fd6d02c072bd1dcf2b38854ea9f",
+      "size": 17520
+    },
+    {
+      "path": "docs/tool-showcases/USERNAME_INTEL.md",
+      "sha256": "fcba4d5b707a5b9a7f982bf5286183330cc9b2a485354d0970cb0e3dcdf0f83b",
+      "size": 7941
+    },
+    {
+      "path": "docs/tool-showcases/VELVETECHO.md",
+      "sha256": "607bf58ef23628dd212f0b11d33b9d325109a5551a528be6daba61a5500a6413",
+      "size": 7771
+    },
+    {
+      "path": "docs/tool-showcases/VOIDLANTERN.md",
+      "sha256": "b96e53b9dfbe5015ca261f195518d2074e0c69eb42389062806d6be3ecfd2f7e",
+      "size": 9867
+    },
+    {
+      "path": "docs/tool-showcases/X_INTEL_PHANTOM.md",
+      "sha256": "ec5364c3e2d75b1d35dce626fea0f6120478a20de8e3048b61866baa22f22854",
+      "size": 10053
+    },
+    {
+      "path": "docs/tool-showcases/X_SHADOW_NO_API.md",
+      "sha256": "397c0e0d242979ee6632c44d266159f1fbecd7f73e3705540888c186c4217094",
+      "size": 9956
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "ea6da9077ea83f4047841494136a8dc3cadfb822ea89aeea7f61078909af4a0f",
+      "size": 57
+    },
+    {
+      "path": "scripts/install_glitchbyte_master_hub_v020.sh",
+      "sha256": "c53e70fbb571e92cb9e8668bfaead02aa4e227400a1d0b1c40b427184c738466",
+      "size": 5167
+    },
+    {
+      "path": "scripts/link_tool_covers.py",
+      "sha256": "0c6956cf7624a2bee393ac81641a12f2a0c53c772bec212093350341015718a2",
+      "size": 3531
+    },
+    {
+      "path": "scripts/phantom_easy_save.py",
+      "sha256": "de737caf69d568cb4bb09e5bd472b1aa25470385247748beb6eb510413add50d",
+      "size": 6122
+    },
+    {
+      "path": "scripts/phantom_quickopen.py",
+      "sha256": "9b584733bc7e61e6b8a5368d78c52b825ccccdd7c6c240c085e822add569a109",
+      "size": 9715
+    },
+    {
+      "path": "scripts/privacy_publication_guard.py",
+      "sha256": "84bab74501db1c49e9729f12dd611cc54798feeabce5b974810a1f27d2b4710d",
+      "size": 2137
+    },
+    {
+      "path": "scripts/triad_signal_2026.py",
+      "sha256": "e0d2834d5675b792205321f7c14416a6b6459aa710081158df4882608d6fbaa1",
+      "size": 10565
+    },
+    {
+      "path": "tests/test_easy_save_documentation.py",
+      "sha256": "cb3f2c2958c40c7b17f0b75404eea8cf6dbdfa5d422a8e2a08309b892b0f8469",
+      "size": 1770
+    },
+    {
+      "path": "tests/test_ghostmark_integrity_atlas.py",
+      "sha256": "48b97a859e3d690c431907034bbb03400a16741a8bd09cdc167c89af07f876d4",
+      "size": 4854
+    },
+    {
+      "path": "tests/test_hexwake_palette_foundry.py",
+      "sha256": "24457012815b7f0f6b5237ac14dec620bfd84527451533ccf9f9c28fcbbeae43",
+      "size": 2988
+    },
+    {
+      "path": "tests/test_ip_shadow_tls_policy.py",
+      "sha256": "1ccd78b374b4ce963e129c8439c9c6f8adb0a09505ff859ae1602c701faeb68e",
+      "size": 2623
+    },
+    {
+      "path": "tests/test_offline_terminal_verification.py",
+      "sha256": "7c9c53003aa4af88045857e5bd1f71069d49eb2a77a49efb9d15b44092d2f79d",
+      "size": 7756
+    },
+    {
+      "path": "tests/test_phantom_cipherbox.py",
+      "sha256": "215d82cf406bde1dd936255ab5f382473ff1feee35f201ac3a0107b57c51f99b",
+      "size": 4024
+    },
+    {
+      "path": "tests/test_phantom_easy_save.py",
+      "sha256": "4a05fdbd993317d0b512d8cb1e03584d07cb2f6064d6364a080e9073f3f7654d",
+      "size": 5894
+    },
+    {
+      "path": "tests/test_phantom_quickopen.py",
+      "sha256": "1f47f672478bf704a6a9dc8f27098ffcd8ffa890314ef370aca2a512aba12e8f",
+      "size": 5025
+    },
+    {
+      "path": "tests/test_phase25_source_reliability.py",
+      "sha256": "9f150aa1dbf29544dd6fe1d8964d89ad1f6375084347f4bb54cb60850a9c7ba3",
+      "size": 2753
+    },
+    {
+      "path": "tests/test_published_copy_paste_recipes.py",
+      "sha256": "5afcdb7a35eec8a7eb3c2bcf35b07a740b2d146f0ba8bd91b07dccbf34000474",
+      "size": 3154
+    },
+    {
+      "path": "tests/test_repository.py",
+      "sha256": "5d8d218effd31ab6735daf82a58ff05b61112e6ce39235f33ec9ae9ad01c252b",
+      "size": 682
+    },
+    {
+      "path": "tests/test_rosie_phantom_scan_v2.py",
+      "sha256": "8dab55a325bdb15805f066175872a2f9c0303f14f2fe08dc16cf48605f1a8023",
+      "size": 4142
+    },
+    {
+      "path": "tests/test_subdominatrix.py",
+      "sha256": "52eb3ae99665904b895bcd9221cd17b5de769a7d786325a910cadfd6a1cad4d5",
+      "size": 15516
+    },
+    {
+      "path": "tests/test_tool_recipe_audit.py",
+      "sha256": "47ac263d7e52b7f4a198b6fe5cf686767721ee5e7dab837ac1683f52793ba715",
+      "size": 5330
+    },
+    {
+      "path": "tests/test_tool_vault_doors.py",
+      "sha256": "fcbbba545b583320e0b5aa14fcb194f3245a490ba04e4a9ba230f3eed5b68cd8",
+      "size": 3579
+    },
+    {
+      "path": "tests/test_triad_signal_2026.py",
+      "sha256": "1494a153b29a194d98f72b2bc03747da2e96ea542f75e3f41981d5f4da68af44",
+      "size": 7093
+    },
+    {
+      "path": "tests/test_velvetecho_persona_observatory.py",
+      "sha256": "5b9b4e4fb1f094baed601c0a625ad25124b820588465441e67d2435629059152",
+      "size": 10841
+    },
+    {
+      "path": "tools/ghostmark_integrity_atlas.py",
+      "sha256": "aecf567a5b6fbfd8337b058d4c60f2f0d439fdece714175ced12397549f084d5",
+      "size": 14080
+    },
+    {
+      "path": "tools/glitchbyte-art-vault-converter/GLITCHBYTE-ART-VAULT-BATCH-OPTIMIZER-v1.py",
+      "sha256": "b89f942c0c60af482fe6c4f5363213f523d66c08f5d26a7d7f63eeb9b8d4236c",
+      "size": 5948
+    },
+    {
+      "path": "tools/glitchbyte-art-vault-converter/INSTALL_GLITCHBYTE_CONVERTER.sh",
+      "sha256": "567e36887630da8ac26fdf52f0e95187f559304b11921341f3ab3966e54ee93f",
+      "size": 3000
+    },
+    {
+      "path": "tools/glitchbyte-art-vault-converter/INSTALL_NEW_ONLY_v2.sh",
+      "sha256": "395046155a15cc668b7344264d39b196bf313bba59a12b11ce9c8ea2f7390f3e",
+      "size": 3508
+    },
+    {
+      "path": "tools/glitchbyte-art-vault-converter/README.md",
+      "sha256": "4cf122c3897430fd085d3f41cda2b386c8fab928ced5cb777876f4132a1b2d2b",
+      "size": 4041
+    },
+    {
+      "path": "tools/glitchbyte-art-vault-converter/glitchbyte_art_new_only_v2.py",
+      "sha256": "585c8acb4da8a28ac3bc95975fbf1f3e4e5fd0c765e03686188e8f7e150927ce",
+      "size": 8025
+    },
+    {
+      "path": "tools/glitchbyte-share-card-doctor/README.md",
+      "sha256": "278da59c3a13393759f78de3e8664acab06e9df6fb61f5ecdf93959a81391a4a",
+      "size": 2686
+    },
+    {
+      "path": "tools/glitchbyte-share-card-doctor/share_card_doctor.py",
+      "sha256": "dd3da2be98f53f3998cb07c4a3464d6cf8796126e3212c1170a713b61212f836",
+      "size": 6304
+    },
+    {
+      "path": "tools/glitchbyte_domain_intel.py",
+      "sha256": "ab5818a0c6aa77c431fc62ce86d76151b336fec59a27576cc8d8752f2b06b44a",
+      "size": 7604
+    },
+    {
+      "path": "tools/glitchbyte_log_constellation.py",
+      "sha256": "1165a1fe1a4901fa1a7973b8d13ae96295e67776caf1b39965af04fecba6aef0",
+      "size": 8329
+    },
+    {
+      "path": "tools/glitchbyterosie_x_intel.py",
+      "sha256": "a41e2c87b94b6149a4d8ff0616ed57bde087924b58b94500fd0c5babc444e2fb",
+      "size": 11355
+    },
+    {
+      "path": "tools/glitchbyterosie_x_no_api.py",
+      "sha256": "2ce0a2f6bf7d4e7b877f8da0a5498c845fba72b987f78df9e1bab2c61b8d34bb",
+      "size": 9349
+    },
+    {
+      "path": "tools/go/voidlantern-go/.github/workflows/go-test.yml",
+      "sha256": "a63b98b675f9cae13d101f0eafd34a8a9e71f3ca75ec00d4297eef7a8575ab4d",
+      "size": 514
+    },
+    {
+      "path": "tools/go/voidlantern-go/.gitignore",
+      "sha256": "4a6e9601e7782b23db88e61d6fcc1b7465f74e8120bfb625ec85da7ef69940da",
+      "size": 63
+    },
+    {
+      "path": "tools/go/voidlantern-go/CHANGELOG.md",
+      "sha256": "88f25a5129608ed1ec5561c4b5e5fdbefb239116fdbe54c17207f575d676fd74",
+      "size": 605
+    },
+    {
+      "path": "tools/go/voidlantern-go/README.md",
+      "sha256": "2de702bfbc1db204e625d56f512e91377ae7875c43e377aa8b7b4f00145c5cd1",
+      "size": 2226
+    },
+    {
+      "path": "tools/go/voidlantern-go/go.mod",
+      "sha256": "66050deb9fdb81f0f4b7ae4b4f23c359ed728a94fcdb8e51b82cb257567d2dea",
+      "size": 63
+    },
+    {
+      "path": "tools/go/voidlantern-go/main.go",
+      "sha256": "3c7bdef33663d7685b2caedc3846bdf469f2941113ea3d7478ab3c4e942f12ff",
+      "size": 4768
+    },
+    {
+      "path": "tools/go/voidlantern-go/main_test.go",
+      "sha256": "9a6f156a96bf5acfd13b4864281c26983cfd1e6cdab8910116969b81a3d1baef",
+      "size": 647
+    },
+    {
+      "path": "tools/hexwake_palette_foundry.py",
+      "sha256": "cfd148f58c889dcb50db62288c93e7fa6e90ee09102eb54043cc1d99094cbb34",
+      "size": 9287
+    },
+    {
+      "path": "tools/phantom_cipherbox.py",
+      "sha256": "a705cfe85b550d8ce9473a17e839c5ebb1779d7be625327d48cf5c7377ddaddb",
+      "size": 8184
+    },
+    {
+      "path": "tools/rose_crawler.py",
+      "sha256": "4b2c002b8a062e127ba6192de3666a5b9ba8c76add62eebf94c895b3b0dba9ef",
+      "size": 8740
+    },
+    {
+      "path": "tools/rosie_catch_me_chaos.py",
+      "sha256": "07513a3cd67b7e7ca16084bdd73a3dbc6cbac9acc3a8a23289b2635c11a7bf10",
+      "size": 6901
+    },
+    {
+      "path": "tools/rosie_dark_desire.py",
+      "sha256": "0f0e6b633c549b9bd8f13b13a7ebb274ce2fa69034bce025a9d720bca285d575",
+      "size": 8451
+    },
+    {
+      "path": "tools/rosie_ghost_heart.py",
+      "sha256": "e761ced0da81b2e1a684cef86fd467cfbcc9fda68711d34be27da20469a71ecc",
+      "size": 5467
+    },
+    {
+      "path": "tools/rosie_hide_seek.py",
+      "sha256": "89353c06bf27f3a2ee453ea6c61a51c1ffa4076f28990fc38c829fcc361aedd3",
+      "size": 7146
+    },
+    {
+      "path": "tools/rosie_ip_shadow_scraper.py",
+      "sha256": "f8f0dad1f271295a9928fcb76a8338cfe795d03af9118d2c2da776d15d0a7d06",
+      "size": 8986
+    },
+    {
+      "path": "tools/rosie_phantom_scan_v2.py",
+      "sha256": "4e44980b0aa594b8b400a182f5d58800198d3bcf448e9f926e99dc570a59b162",
+      "size": 20125
+    },
+    {
+      "path": "tools/rosie_signal_garden.py",
+      "sha256": "f5f5304a16895f60f5a6628dc238553d04985e4efeda1ecff111c19a50755bb7",
+      "size": 8007
+    },
+    {
+      "path": "tools/rosie_username_intel.py",
+      "sha256": "76ff51d7a8f3aeaeb0252631470fcba471ebf76d7db768f775ca2e74e7510495",
+      "size": 3563
+    },
+    {
+      "path": "tools/rosieglitchbyte_domain_phantom.py",
+      "sha256": "3ac4b24cf5de4ef04e630c141b86333666570100a0a1f3eae8177dbe98aaecb0",
+      "size": 9357
+    },
+    {
+      "path": "tools/rosieglitchbyte_hackgirl.py",
+      "sha256": "642a5f2170f4f2fd25e62fb6fe61f9f929c7de28e41104c298e5b0328889438c",
+      "size": 13242
+    },
+    {
+      "path": "tools/rosieglitchbyte_ip_specter.py",
+      "sha256": "9978b8c56ac160f137d7f2356ee2d7caf49a4abc19e225fb815b1090ac7e896b",
+      "size": 6234
+    },
+    {
+      "path": "tools/rosieglitchbyte_neon_rose_phantom_3.py",
+      "sha256": "435523659a7864cfa2f3878f326c0b3b29daded2565fdfac3c48d22b0e20f644",
+      "size": 9842
+    },
+    {
+      "path": "tools/screamframe-pixel-autopsy/README.md",
+      "sha256": "93a0aefc090570c612330902e812ba65dd4c420f61889af5ca1855e0f48418c8",
+      "size": 5641
+    },
+    {
+      "path": "tools/screamframe-pixel-autopsy/examples/screamframe_synthetic_fixture.json",
+      "sha256": "4ae955080c11125a22ed04da9f0f910a5a70bf9661481721891d55a75f1c39e0",
+      "size": 559
+    },
+    {
+      "path": "tools/screamframe-pixel-autopsy/requirements.txt",
+      "sha256": "a6aa4945334d7e5c05151676e8dfca726780a9e4d154310a34df06f4137f1c92",
+      "size": 17
+    },
+    {
+      "path": "tools/screamframe-pixel-autopsy/screamframe_pixel_autopsy.py",
+      "sha256": "3eac634cb2436609b6fc145a8938a1518f4a5ca601a849c567588779dc3573f0",
+      "size": 17086
+    },
+    {
+      "path": "tools/screamframe-pixel-autopsy/tests/test_screamframe_pixel_autopsy.py",
+      "sha256": "9b615643ee02f487186f35526bd62a0bfb617d1c2630e123b1d3351c1bf4e150",
+      "size": 4436
+    },
+    {
+      "path": "tools/subdominatrix.py",
+      "sha256": "351ce34bee33cf40d8664d10c31575c6567fef8f44b8edc44a61ea38ae54eeb1",
+      "size": 34824
+    },
+    {
+      "path": "tools/velvetecho-persona-observatory/README.md",
+      "sha256": "bda5f9fa8b55a25129f00e2be774237b3938aa078b167b57578c2f81f5fb712d",
+      "size": 7758
+    },
+    {
+      "path": "tools/velvetecho-persona-observatory/catalog.example.json",
+      "sha256": "0d0968b3e7095d51cd110b15689e8a403f02a54c616449d9a5ac33c7dc60f216",
+      "size": 258
+    },
+    {
+      "path": "tools/velvetecho-persona-observatory/velvetecho_persona_observatory.py",
+      "sha256": "ec0b7ee20194ec88f58562bb8a1cb69e1265127d3b4fb8b2fc4e0d00ed36a3ce",
+      "size": 28226
+    }
+  ],
+  "source_url": "https://github.com/Hellfire13666/glitchbyte-phantom-labs/tree/6de78df11d41a0fdff4986111dfe2feffc8bf761"
+}

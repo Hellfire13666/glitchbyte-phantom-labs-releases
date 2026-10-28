@@ -2,6 +2,11 @@
 <div align="right"><a href="https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases/upload/main" title="Upload release files"><img alt="UPLOAD FILES" src="https://img.shields.io/badge/UPLOAD-FILES-7850E8?style=flat-square&logo=github&logoColor=white"></a></div>
 <!-- GLITCHBYTE-UPLOAD-DOOR:END -->
 
+<!-- GLITCHBYTE-VISITOR-BADGE:START -->
+[![Page Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FHellfire13666%2Fglitchbyte-phantom-labs-releases&count_bg=%23FF1493&title_bg=%23080808&icon=&icon_color=%23FFFFFF&title=PAGE+VIEWS&edge_flat=false)](https://github.com/Hellfire13666/glitchbyte-phantom-labs-releases)
+<!-- GLITCHBYTE-VISITOR-BADGE:END -->
+
+
 <div align="center">
 
 ![Phantom Vault artwork](https://raw.githubusercontent.com/Hellfire13666/glitchbyte-phantom-labs/main/artwork/vaultlab.png)
